@@ -11,6 +11,18 @@
 \pagestyle{fancy}
 \fancyhead[R]{\thepage}
 \fancyhead[L]{Franklands riksdag}
+\usepackage{tocloft}
+\usepackage{titletoc}
+
+\renewcommand{\contentsname}{\centering INNEHÅLLSFÖRTECKNING}
+
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+% Remove vertical space between sections in ToC
+\setlength{\cftbeforesecskip}{0pt}
+
+% Add dots at the end of section titles in ToC
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -18,7 +30,7 @@ customHeadersFooters
 \end_modules
 \maintain_unincluded_children false
 \language swedish
-\language_package auto
+\language_package babel
 \inputencoding auto
 \fontencoding global
 \font_roman "default" "default"
@@ -74,8 +86,8 @@ customHeadersFooters
 \headheight 2cm
 \headsep 2cm
 \footskip 2cm
-\secnumdepth 3
-\tocdepth 3
+\secnumdepth 2
+\tocdepth 2
 \paragraph_separation skip
 \defskip medskip
 \is_math_indent 0
@@ -102,23 +114,27 @@ Statsbudgeten 2026
 30 august 2025
 \end_layout
 
-\begin_layout Author
+\begin_layout Address
+\noindent
+\align center
+Nyholm
+\end_layout
+
+\begin_layout Standard
 Rikskansler Chris Linter
 \end_layout
 
-\begin_layout Address
+\begin_layout Standard
 Finanskansler Majna Stewars
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
-\noindent
 \begin_inset Graphics
 	filename /home/niilo/Documents/rikskansliet-logo-zip-file/png/logo-no-background.png
 	lyxscale 10
-	scale 10
-	BoundingBox -1220bp 0bp 1000bp 2600bp
-	clip
+	scale 12
+	BoundingBox -940bp 0bp 1000bp 2050bp
+	rotateOrigin center
 
 \end_inset
 
@@ -153,30 +169,38 @@ thepage
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Ekonomiska utsikter
 \end_layout
 
 \begin_layout Standard
-Samhällsekonomin har varit fluktuerande under de gånga år.
- Befolkning har ökat samtidigt med ekonomin och inkomstgrader har blivit
- bättre.
- Det finns ändå problem och utmaningar som staten befinner sig inför.
+Samhällsekonomin har varit fluktuerande under de gånga åren.
+ Befolkningen har ökat samtidigt med ekonomin och inkomstnivåerna har förbättrat
+s.
+ Det finns ändå problem och utmaningar som staten står inför.
  Statsbudgetar har ökat i sina summor när inkomstbasen har förvärrats i
  proportion till bruttonational- produkten.
- Det finns krav att stöda dem i dåliga förhållande och det finns krav att
- minska spenderanden.
- De här går inte bra i sammanhang.
+ Det finns krav på att stödja dem i dåliga förhållanden och det finns krav
+ på att minska utgifterna.
+ Dessa två aspekter harmoniserar inte väl.
 \end_layout
 
 \begin_layout Standard
-Under det kommande året kommer ökningen av bruttonationalprodukten stannas.
- I august 2025 är den circa 265,36 miljoner euro.
- Bruttonationalomsättningen är circa 176,48 miljoner euro under samma tidsperiod
-en.
- BPN förvantas att bli circa 270 miljoner euro och BNO förvantas att bli
- 180 miljoner euro under det kommande året.
- Staten försöker att verkställa åtgärder som skulle uppmuntra deras tillväxt.
+Under det kommande året kommer ökningen av bruttonationalprodukten att stanna.
+ I august 2025 är den cirka 265,36 miljoner euro.
+ Bruttonationalomsättningen är cirka 176,48 miljoner euro under samma tidsperiod.
+ BPN förvantas bli cirka 270 miljoner euro och BNO förvantas bli cirka 180
+ miljoner euro under det kommande året.
+ Staten försöker att verkställa åtgärder som skulle uppmuntra tillväxten.
 \end_layout
 
 \begin_layout Section
@@ -189,7 +213,7 @@ Enligt
 grundlagen
 \shape default
  ska statsekonomin behandlas av rikskansliet och övervakas av riksdagen.
- Statsekonomin bestämmas i denna budget med riksdags godkännande.
+ Statsekonomin bestäms i denna budget med riksdagens godkännande.
  Enligt 
 \emph on
 grundlagen
@@ -198,10 +222,19 @@ grundlagen
 \end_layout
 
 \begin_layout Standard
-Denna budget beslutar om statens finanser genom anslag och överlåtelser.
- Finanser finansieras huvudsakligen med skatter och försäkringsavgifter.
- Staten får också inkomst av sina investeringar och skuld.
- Skulder bör dock undvikas för statsekonomins hälsa i långa stycken.
+Denna budget beslutar omkring statens finanser genom anslag och överlåtelser.
+ Statens finanser finansieras främst genom skatter och försäkringsavgifter.
+ Staten genererar också intäkter genom sina investeringar och skulder.
+ Skulder bör dock undvikas för att bevara hälsan i statsekonomin.
+\end_layout
+
+\begin_layout Standard
+Vissa uppgifter saknas från 
+\emph on
+statsbudgeten 2024
+\emph default
+, som regeringen har valt som referensnivå.
+ Sammanlagda uppgifter av slutliga summor finns ändå i tabeller.
 \end_layout
 
 \begin_layout Section
@@ -216,10 +249,10 @@ Inkomstposter
 År 2023 uppskattas den statliga budgetekonomins inkomster utan nettoupplåning
  till 58,91 miljoner euro.
  Inkomsterna utan upplåning minskar med 1,17 miljoner euro.
- Orsaken till förändringen är för det mesta av skatteavdrag.
- En del av förändrigar är nya lagliga ramar till omsättningsskatten, bolagskatte
-n, tobaksaccis och alkoholsaccis.
- Utan de här ramarna skulle statskansliet kunna förändra beloppet av skatter.
+ Orsakerna till förändringen är främst skatteavdrag.
+ Förändringarna inkluderar nya lagstadgade ramar för omsättningsskatten,
+ bolagsskatten, tobaks-accisen och alkoholsaccisen.
+ Utan de här ramarna skulle statskansliet kunna justera skattsatserna.
 \end_layout
 
 \begin_layout Subsection
@@ -227,14 +260,14 @@ Balansen inom statsfinanserna och statsskulden
 \end_layout
 
 \begin_layout Standard
-Balansen inom statens budgetekonomi försvagas med circa 1,17 miljoner euro
+Balansen inom statens budgetekonomi försvagas med cirka 1,17 miljoner euro
  jämfört med den ordinarie budgeten för 2025.
- Budgetpropositionen för 2026 uppvisar ett underskott på cirka 2,24 euro,
- vilket finansieras genom ökad skuldsättning.
- Med ett underskott som här beräknas det att vara 0,84 % i förhållandet
- till bruttonationalprodukten.
- Skulden blir 35,84 % av alla statliga skulder, vilken är en stor men nödvändig
- förändrig.
+ Budgetpropositionen för 2026 uppvisar ett underskott på cirka 2,24 miljoner
+ euro, vilket finansieras genom ökad skuld-sättning.
+ Med ett underskott som här uppgår det till 0,84 % i förhållandet till bruttonat
+ionalprodukten.
+ Skulden utgör 35,84 % av alla statliga skulder, vilken är en betydande
+ men nödvändig förändrig.
 \end_layout
 
 \begin_layout Subsection
@@ -735,7 +768,7 @@ Inkomstposter sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-61 602
+62 524
 \end_layout
 
 \end_inset
@@ -753,7 +786,7 @@ Inkomstposter sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-─0,73
+─2,19
 \end_layout
 
 \end_inset
@@ -950,7 +983,7 @@ Investeringsutgifter
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -959,7 +992,7 @@ Investeringsutgifter
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -968,7 +1001,7 @@ Investeringsutgifter
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -977,7 +1010,7 @@ Investeringsutgifter
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1134,22 +1167,23 @@ Ram för valperioden 2026─2028
 \begin_layout Standard
 Beslut om ramen för valperioden 2026─2028 har fattats i regeringens plan
  för de offentliga finanserna den 30 augusti 2025.
- Regeringen håller fast vid sina planer att tillåta inga undantag i ramen.
- Den enda anledning för ett undantag som kan accepteras ska vara någon slags
- ekonomisk eller utrikespolitisk kris.
- Det finns inga möjliga risker för det här.
+ Regeringen håller fast vid sina planer att inte tillåta några undantag
+ från ramen.
+ Den enda anledning till att ett undantag kan accepteras är om det föreligger
+ någon form av ekonomisk eller utrikespolitisk kris.
+ Det finns inga potentiella risker för kriser som här.
 \end_layout
 
 \begin_layout Standard
-Med presidents underskrivning ska 
+Med presidentens underskrift ska 
 \emph on
-treårsplan 2026─2028
+treårsplanen 2026─2028
 \emph default
  införas på nästa år.
  Planen används gällande alla ekonomiska beslut och statsbudgetar.
- De årliga ramar ska varieras beroende på ekonomiska förhållanden men den
- slutliga ramen för den totala tidsperioden ska vara 186 miljoner euro,
- vilken är 2 miljoner euro mera än i tidigare planen.
+ De årliga ramarna kan varieras beroende på ekonomiska förhållanden men
+ den slutliga ramen för den totala tidsperioden ska vara 186 miljoner euro,
+ vilket är 2 miljoner euro mer än i den tidigare planen.
 \end_layout
 
 \begin_layout Subsection
@@ -1371,7 +1405,7 @@ Rikskansli
 \end_layout
 
 \begin_layout Standard
-Två myndigheter hör till rikskansliet, som är rikskanslers eget kansli.
+Det finns två myndigheter under rikskansliet, som är rikskanslers eget kansli.
  De är 
 \emph on
 rikskanslis anstalten
@@ -1383,11 +1417,11 @@ riksbanken
 .
  Rikskanslis anstaltens uppgifter innehåller den allmänna förvaltningen
  av statskansliet och andra myndigheter.
- Den medarbetar med presidentskansliet för att leda staten effektivt under
- rikskanslers och presidents vilja.
- Riksbankens uppgifter innehåller behandlingen och reglering av finansmarknaden.
- År 2026 ska riksbankens folksbankir vara Aaron Råsenberg som följer förra
- bankiren Will Skinners.
+ Den samarbetar med presidentskansliet för att effektivt leda enligt under
+ rikskanslerns och presidentens vilja.
+ Riksbankens uppgifter omfattar behandlingen och reglering av finansmarknaden.
+ År 2026 ska riksbankens folksbankir vara Aaron Råsenberg som efterträder
+ den tidigare bankiren Will Skinners.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1604,21 +1638,27 @@ Finanskansli
 \end_layout
 
 \begin_layout Standard
-Två myndigheter hör till finanskansliet, som är finanskanslers eget kansli.
+Under finanskansliet finns det två myndigheter.
  De är 
 \emph on
 skatteverk
 \emph default
  och 
 \emph on
-finansieringsmyndigheten
+finansierings-myndigheten
 \emph default
 .
- Skatteverket är statens skatteuppbörds-myndigheten och dess uppgift är
- att behandla beskattningssystem och indriva skatter.
- Finansieringsmyndigheten försäkrar att statens inkomster är tillräckliga
+ Skatteverket är statens skatteindrivningsmyndigheten och dess uppgift är
+ att hantera beskattningssystem och att driva in skatter.
+ Finansierings-myndigheten säkerställer att statens intäkter är tillräckliga
  och att statens anslag betalas enligt statsbudgeten.
- De två myndigheterna fungerar i samarbete med varandra.
+ Dessa två myndigheter samarbetar med varandra och deras finansiering är
+ livsviktig.
+\end_layout
+
+\begin_layout Standard
+Finansieringsmyndigheten hanterar finansiering av hälsovård, statliga pensioner,
+ centrala förvaltning och statsskuld fast de är avskilda i tabellen.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1752,7 +1792,7 @@ Finansieringsmyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Behandling av statsskuld
+Hantering av statsskuld
 \end_layout
 
 \end_inset
@@ -1949,7 +1989,7 @@ Socialkansli
 \end_layout
 
 \begin_layout Standard
-Tre myndigheter hör till socialkansliet, som är socialkanslers eget kansli.
+Under socialkansliet finns det tre myndigheter.
  De är 
 \emph on
 hälsomyndigheten
@@ -1966,6 +2006,1008 @@ informationsmyndigheten
  HSM övervakar och reagerar till folkshälsa.
  FIM behandlar sociala förmåner.
  INM behandlar statistiker av statens befolkning och invandring.
+\end_layout
+
+\begin_layout Subsubsection
+Socialkanslis anslag, tn euro
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utgiftspost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2024
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ändring, % av förra året
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HSM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+301
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FIM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+577
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+INM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+232
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sociala förmåner
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11 439
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag sammanlagt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14 039
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12 550
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+─10,61
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Utbildningskansli
+\end_layout
+
+\begin_layout Standard
+Under utbildningskansliet finns det två myndigheter.
+ De är 
+\emph on
+skolmyndigheten
+\emph default
+ och 
+\emph on
+undersökningsmyndigheten
+\emph default
+.
+ Skolmyndigheten organiserar grundläggande utbildning och högskolors förvaltning.
+ Undersökningsmyndigheten stöder akatemisk och vetenskaplig forskningsarbete
+ och värnar om kulturvärden.
+\end_layout
+
+\begin_layout Subsubsection
+Utbildningskanslis anslag, tn euro
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utgiftspost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2024
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ändring, % av förra året
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Skolmyndigheten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3 615
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3 819
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5,64
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Undersökningsmyndigheten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+459
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+508
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10,68
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Skolors fastighetskostnader
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+259
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+259
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,00
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Skolmats kostnader
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+52
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+52
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,00
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Högskolors finansiering
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10,00
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag sammanlagt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5 486
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5 738
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4,59
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Inrikeskansli
+\end_layout
+
+\begin_layout Standard
+Under inrikeskansliet finns det tre myndigheter.
+ De är 
+\emph on
+centralpolisanstalten
+\emph default
+ (CPA), 
+\emph on
+säkerhetspolisen
+\emph default
+ (SPO) och 
+\emph on
+tullmyndigheten
+\emph default
+ (TUM).
+ CPA övervakar ordningen i riket och ser efter att olagligheter avslöjas.
+ SPO övervakar nationell säkerhet och avvärjar terrorism.
+ TUM ser efter att handelsvaror som lämnar eller ankommar till landet är
+ lagliga.
+\end_layout
+
+\begin_layout Subsubsection
+Inrikeskanslis anslag, tn euro
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utgiftspost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2024
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ändring, % av förra året
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CPA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+522
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+577
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10,54
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SPO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+207
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+232
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12,08
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TUM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+207
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+232
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12,08
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Verksamhetsfinansiering
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+124
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+124
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,00
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag sammanlagt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 060
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5 738
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9,91
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Utrikeskansli
+\end_layout
+
+\begin_layout Standard
+Utrikeskansli er ett speciellt kansli som arbetar med presidentskansliet
+ och rikskansliet för att leda Franklands utrikespolitik.
+ Utrikeskansliet överför statskanslis vilja om politiken och relationer
+ till andra länder.
+ Kansliet fattar beslut tillsammans med presidentskansli i alla förhållanden.
+ Det finns bara en myndighet under utrikeskansliet, 
+\emph on
+stora ambassaden
+\emph default
+, som samordnar arbete mellan ambassader i olika länder och central förvaltninge
+n.
+\end_layout
+
+\begin_layout Subsubsection
+Utrikeskanslis anslag, tn euro
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utgiftspost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2024
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ändring, % av förra året
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stora ambassaden
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+901
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+991
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9,99
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag sammanlagt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+901
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+991
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9,99
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Miljökansli
+\end_layout
+
+\begin_layout Standard
+Under miljökansliet finns det två myndigheter.
+ De är 
+\emph on
+byggningsmyndigheten
+\emph default
+ (BYM) och 
+\emph on
+miljömyndigheten
+\emph default
+ (MIM).
+ Byggningsmyndigheten ser efter att alla byggnadsprojekt och byggarbetsplatser
+ följer lag.
+ Miljömyndigheten har tillsyn över efterlevnaden av regler, lagar och förordning
+ar gällande miljövänligheten.
+ Tillräcklig finansiering behövas för att tillåta de här myndigheternas
+ arbete.
+\end_layout
+
+\begin_layout Subsubsection
+Miljökanslis anslag, tn euro
 \end_layout
 
 \begin_layout Standard
@@ -2015,25 +3057,63 @@ Anslag 2026
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Rikskanslis anstalten
+BYM
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+270
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+301
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11,48
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MIM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+207
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2042,36 +3122,238 @@ Rikskanslis anstalten
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+12,08
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Riksbanken
+Andra utgifter
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+2 290
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+─100,00
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag sammanlagt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 767
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+991
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+─64,19
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Näringskansli
+\end_layout
+
+\begin_layout Standard
+Under näringskansliet finns det två myndigheter.
+ De är 
+\emph on
+arbetsverk
+\emph default
+ (ABV) och 
+\emph on
+handelsmyndigheten
+\emph default
+ (HAM).
+ Arbetsverk har tillsyn över efterlevnaden av 
+\emph on
+arbetslagen
+\emph default
+ (1/2015) och handelsmyndigheten ser till att den kommersiella marknaden
+ följer regler.
+ Det finns ännu ingen lag som skulle föreskriva om handelslivet vilken betyder
+ att näringskansliets finansiering är särskilt viktig.
+\end_layout
+
+\begin_layout Standard
+Kansliet betalar också jordbruksstöder till lantbdruksproducenter.
+ De räknas som näringsunderstöder och de betalas för att stöda näringsverksamhet
+ i det benäget jordbruket.
+\end_layout
+
+\begin_layout Subsubsection
+Näringskanslis anslag, tn euro
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utgiftspost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2024
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ändring, % av förra året
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arbetsverk
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+333
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+370
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11,11
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Handelsmyndigheten
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+160
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2080,11 +3362,11 @@ Riksbanken
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+15,00
 \end_layout
 
 \end_inset
@@ -2095,7 +3377,7 @@ Riksbanken
 \begin_inset Text
 
 \begin_layout Plain Layout
-Andra anslag
+Jordbruksstöder
 \end_layout
 
 \end_inset
@@ -2113,7 +3395,7 @@ Andra anslag
 \begin_inset Text
 
 \begin_layout Plain Layout
-16
+304
 \end_layout
 
 \end_inset
@@ -2142,7 +3424,7 @@ Anslag sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-364
+493
 \end_layout
 
 \end_inset
@@ -2151,7 +3433,7 @@ Anslag sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-432
+858
 \end_layout
 
 \end_inset
@@ -2160,7 +3442,7 @@ Anslag sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-18,68
+74,04
 \end_layout
 
 \end_inset
@@ -2171,6 +3453,604 @@ Anslag sammanlagt
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Försvarskansli
+\end_layout
+
+\begin_layout Standard
+Under försvarskansliet finns det bara en myndighet, 
+\emph on
+försvarsmaktens stab
+\emph default
+ (FMS).
+ Dess uppgift är att leda försvarsmakten under riksdags, statskanslis och
+ presidents-kanslis vilja.
+ Med den här budgeten var det viktig att inte bara finansiera förvaltningskostna
+der utan också de operative kostnader som är livsviktiga för nationel säkerhet.
+\end_layout
+
+\begin_layout Subsubsection
+Försvarskanslis anslag, tn euro
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utgiftspost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2024
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ändring, % av förra året
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Försvarsmaktens stab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+270
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+301
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11,48
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Operativa utgifter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+408
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+408
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,00
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag sammanlagt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+678
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+709
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4,57
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Rättskansli
+\end_layout
+
+\begin_layout Standard
+Under rättskansliet finns det två myndigheter.
+ De är 
+\emph on
+åklagarsmyndigheten
+\emph default
+ (ÅLM) och 
+\emph on
+rättsväsen
+\emph default
+ (RV).
+ Åklagarsmyndigheten ser till att alla brott leder i ett åtal när det krävs
+ enligt lagen.
+ Rättsväsen använder dömande makt och ser till åtal granskas noggrant.
+ De här två myndigheterna är livsviktiga till staten och deras finansiering
+ bör aldrig kompenseras.
+\end_layout
+
+\begin_layout Subsubsection
+Rättskanslis anslag, tn euro
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utgiftspost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2024
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ändring, % av förra året
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ÅLM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+459
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+508
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10,68
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rättsväsen
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+459
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+508
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10,68
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag sammanlagt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+918
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 016
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10,68
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Kommunikationskansli
+\end_layout
+
+\begin_layout Standard
+Under kommunikationskansliet finns det bara en myndighet, 
+\emph on
+kommunikations-myndigheten
+\emph default
+ (KOM).
+ Den ser till att trafiken behandlas ordentligt och enligt lagar i hela
+ landet.
+ Myndigheten ansvarar också för underhållet av riksvägar.
+ Kansliet behöver finansiering för både förvaltningskostnader och underhållskost
+nader av vägar.
+\end_layout
+
+\begin_layout Subsubsection
+Kommunikationskanslis anslag, tn euro
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utgiftspost
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2024
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag 2026
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ändring, % av förra året
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+KOM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+333
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+370
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11,11
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Underhåll av vägar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+105
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+105
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0,00
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Anslag sammanlagt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+438
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+475
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8,45
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Slutord
+\end_layout
+
+\begin_layout Standard
+Med hänvisning till den grundlagliga rätten för statskansliet att bereda
+ statsbudgeten och treårsplanen föreslås,
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+att Riksdagen måtte besluta godkänna den här statsbudgeten för 2026.
+\end_layout
+
+\begin_layout Standard
+Nyholm den 30 augusti 2025
+\end_layout
+
+\begin_layout Standard
+Den här budgeten har beretts i finanskansliet under år 2025 med hänsyn till
+ andra kansliers propositioner.
+ Budgeten kommer att påverka statens finanser och skatter under de kommande
+ tre åren, förutsatt att riksdagsval ordnas regelbundet år 2028.
+\end_layout
+
+\begin_layout Standard
+Budgeten godkänns av statskansliet, presidenten och riksdagen.
 \end_layout
 
 \end_body
