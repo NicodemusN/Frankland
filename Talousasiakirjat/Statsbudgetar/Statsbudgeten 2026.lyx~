@@ -120,11 +120,11 @@ Statsbudgeten 2026
 Nyholm
 \end_layout
 
-\begin_layout Author
+\begin_layout Standard
 Rikskansler Chris Linter
 \end_layout
 
-\begin_layout Address
+\begin_layout Standard
 Finanskansler Majna Stewars
 \end_layout
 
@@ -133,7 +133,7 @@ Finanskansler Majna Stewars
 	filename /home/niilo/Documents/rikskansliet-logo-zip-file/png/logo-no-background.png
 	lyxscale 10
 	scale 12
-	BoundingBox -940bp 0bp 1000bp 2000bp
+	BoundingBox -940bp 0bp 1000bp 2050bp
 	rotateOrigin center
 
 \end_inset
@@ -249,10 +249,10 @@ Inkomstposter
 År 2023 uppskattas den statliga budgetekonomins inkomster utan nettoupplåning
  till 58,91 miljoner euro.
  Inkomsterna utan upplåning minskar med 1,17 miljoner euro.
- Orsaken till förändringen är för det mesta av skatteavdrag.
- En del av förändrigar är nya lagliga ramar till omsättningsskatten, bolagskatte
-n, tobaksaccis och alkoholsaccis.
- Utan de här ramarna skulle statskansliet kunna förändra beloppet av skatter.
+ Orsakerna till förändringen är främst skatteavdrag.
+ Förändringarna inkluderar nya lagstadgade ramar för omsättningsskatten,
+ bolagsskatten, tobaks-accisen och alkoholsaccisen.
+ Utan de här ramarna skulle statskansliet kunna justera skattsatserna.
 \end_layout
 
 \begin_layout Subsection
@@ -262,12 +262,12 @@ Balansen inom statsfinanserna och statsskulden
 \begin_layout Standard
 Balansen inom statens budgetekonomi försvagas med cirka 1,17 miljoner euro
  jämfört med den ordinarie budgeten för 2025.
- Budgetpropositionen för 2026 uppvisar ett underskott på cirka 2,24 euro,
- vilket finansieras genom ökad skuld-sättning.
- Med ett underskott som här beräknas det att vara 0,84 % i förhållandet
- till bruttonationalprodukten.
- Skulden blir 35,84 % av alla statliga skulder, vilken är en stor men nödvändig
- förändrig.
+ Budgetpropositionen för 2026 uppvisar ett underskott på cirka 2,24 miljoner
+ euro, vilket finansieras genom ökad skuld-sättning.
+ Med ett underskott som här uppgår det till 0,84 % i förhållandet till bruttonat
+ionalprodukten.
+ Skulden utgör 35,84 % av alla statliga skulder, vilken är en betydande
+ men nödvändig förändrig.
 \end_layout
 
 \begin_layout Subsection
@@ -1167,22 +1167,23 @@ Ram för valperioden 2026─2028
 \begin_layout Standard
 Beslut om ramen för valperioden 2026─2028 har fattats i regeringens plan
  för de offentliga finanserna den 30 augusti 2025.
- Regeringen håller fast vid sina planer att tillåta inga undantag i ramen.
- Den enda anledning för ett undantag som kan accepteras ska vara någon slags
- ekonomisk eller utrikespolitisk kris.
- Det finns inga möjliga risker för det här.
+ Regeringen håller fast vid sina planer att inte tillåta några undantag
+ från ramen.
+ Den enda anledning till att ett undantag kan accepteras är om det föreligger
+ någon form av ekonomisk eller utrikespolitisk kris.
+ Det finns inga potentiella risker för kriser som här.
 \end_layout
 
 \begin_layout Standard
-Med presidents underskrivning ska 
+Med presidentens underskrift ska 
 \emph on
-treårsplan 2026─2028
+treårsplanen 2026─2028
 \emph default
  införas på nästa år.
  Planen används gällande alla ekonomiska beslut och statsbudgetar.
- De årliga ramar ska varieras beroende på ekonomiska förhållanden men den
- slutliga ramen för den totala tidsperioden ska vara 186 miljoner euro,
- vilken är 2 miljoner euro mera än i tidigare planen.
+ De årliga ramarna kan varieras beroende på ekonomiska förhållanden men
+ den slutliga ramen för den totala tidsperioden ska vara 186 miljoner euro,
+ vilket är 2 miljoner euro mer än i den tidigare planen.
 \end_layout
 
 \begin_layout Subsection
@@ -1416,11 +1417,11 @@ riksbanken
 .
  Rikskanslis anstaltens uppgifter innehåller den allmänna förvaltningen
  av statskansliet och andra myndigheter.
- Den medarbetar med presidentskansliet för att leda staten effektivt under
- rikskanslers och presidents vilja.
- Riksbankens uppgifter innehåller behandlingen och reglering av finansmarknaden.
- År 2026 ska riksbankens folksbankir vara Aaron Råsenberg som följer förra
- bankiren Will Skinners.
+ Den samarbetar med presidentskansliet för att effektivt leda enligt under
+ rikskanslerns och presidentens vilja.
+ Riksbankens uppgifter omfattar behandlingen och reglering av finansmarknaden.
+ År 2026 ska riksbankens folksbankir vara Aaron Råsenberg som efterträder
+ den tidigare bankiren Will Skinners.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1647,11 +1648,17 @@ skatteverk
 finansierings-myndigheten
 \emph default
 .
- Skatteverket är statens skatteuppbördsmyndigheten och dess uppgift är att
- behandla beskattningssystem och indriva skatter.
- Finansieringsmyndigheten försäkrar att statens inkomster är tillräckliga
+ Skatteverket är statens skatteindrivningsmyndigheten och dess uppgift är
+ att hantera beskattningssystem och att driva in skatter.
+ Finansierings-myndigheten säkerställer att statens intäkter är tillräckliga
  och att statens anslag betalas enligt statsbudgeten.
- De två myndigheterna fungerar i samarbete med varandra.
+ Dessa två myndigheter samarbetar med varandra och deras finansiering är
+ livsviktig.
+\end_layout
+
+\begin_layout Standard
+Finansieringsmyndigheten hanterar finansiering av hälsovård, statliga pensioner,
+ centrala förvaltning och statsskuld fast de är avskilda i tabellen.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1785,7 +1792,7 @@ Finansieringsmyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Behandling av statsskuld
+Hantering av statsskuld
 \end_layout
 
 \end_inset
@@ -2264,8 +2271,8 @@ undersökningsmyndigheten
 \emph default
 .
  Skolmyndigheten organiserar grundläggande utbildning och högskolors förvaltning.
- Undersöknings-myndigheten stöder akatemisk och vetenskaplig forskningsarbete.
- Kansliets uppgift är att värna om kulturvärden.
+ Undersökningsmyndigheten stöder akatemisk och vetenskaplig forskningsarbete
+ och värnar om kulturvärden.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4021,7 +4028,7 @@ Slutord
 \end_layout
 
 \begin_layout Standard
-Med hänvisning till den grundlagliga rätten av statskansliet att bereda
+Med hänvisning till den grundlagliga rätten för statskansliet att bereda
  statsbudgeten och treårsplanen föreslås,
 \end_layout
 
@@ -4036,14 +4043,14 @@ Nyholm den 30 augusti 2025
 \end_layout
 
 \begin_layout Standard
-Den här budgeten har beredas i finanskansliet under år 2025 på grund av
+Den här budgeten har beretts i finanskansliet under år 2025 med hänsyn till
  andra kansliers propositioner.
- Budgeten påverkar statsfinanser och skatter under kommande tre år om riksdagsva
-l ordnas regelbundet år 2028.
+ Budgeten kommer att påverka statens finanser och skatter under de kommande
+ tre åren, förutsatt att riksdagsval ordnas regelbundet år 2028.
 \end_layout
 
 \begin_layout Standard
-Budgeten godkännas av statskansliet, presidenten och riksdagen.
+Budgeten godkänns av statskansliet, presidenten och riksdagen.
 \end_layout
 
 \end_body
