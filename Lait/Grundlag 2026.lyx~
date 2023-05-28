@@ -71,7 +71,7 @@ figs-within-sections
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
 \pdf_bookmarks false
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
@@ -597,15 +597,15 @@ Frankland är en representativ demokrati.
  Folket representeras demokratiskt av ett folkvalt riksdag vart tredje år.
  Riksdagen har 60 ledamöter.
  Riksdagen utövar den lagstiftande makten och väljer ledamöterna av statskanslie
-t som ska utses av presidenten (se artikel V).
+t.
  Riksdagen fattar beslut enligt majoritetsprincipen men för att ändra denna
  grundlag krävs minst ⅔ av rösterna.
 \end_layout
 
 \begin_layout Standard
 Riksdagen är indelat i utskott som förbereder lagarna.
- Det finns tre ständiga utskott: grundlagsutskottet, finansutskottet och
- stora utskottet.
+ Det finns tre ständiga utskott: grundlagsutskottet, finansutskottet, lagutskott
+et, socialutskottet och stora utskottet.
  De övriga utskotten som ansvarar för de olika myndighetsgrenarna kan beslutas
  av riksdagen och bör regleras närmare i lag.
 \end_layout
@@ -707,6 +707,8 @@ Franklands utrikespolitiska representant är presidenten, som väljs genom
  val vart fjärde år.
  Presidenten utnämner alla regeringsmedlemmar till sina befattningar.
  Presidenten har rätt att utnämna alla domare i riksrätten.
+ Presidenten ska också rätten att utnämna regeringsförhandlaren efter riksdagsva
+l.
 \end_layout
 
 \begin_layout Standard
