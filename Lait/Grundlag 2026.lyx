@@ -13,6 +13,7 @@
 \fancyhead[L]{Franklands riksdag}
 \usepackage{tocloft}
 \usepackage{titletoc}
+\usepackage{calc}
 
 \makeatletter
 \let\oldsubsection\subsection
@@ -32,6 +33,9 @@
 \renewcommand{\cftaftertoctitle}{\hfill}
 % Remove vertical space between sections in ToC
 \setlength{\cftbeforesecskip}{0pt}
+
+\titlecontents{section}[0em]{\bfseries}{\contentslabel{2.3em}}{\hspace*{-2.3em}}{\titlerule*[0.8pc]{.}\contentspage}
+\titlecontents{subsection}[6.1em]{}{\contentslabel{6.1em}}{\hspace*{-6.1em}}{\titlerule*[0.8pc]{.}\contentspage}
 
 % Add dots at the end of section titles in ToC
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
@@ -67,7 +71,7 @@ figs-within-sections
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
 \pdf_bookmarks false
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
@@ -593,15 +597,15 @@ Frankland är en representativ demokrati.
  Folket representeras demokratiskt av ett folkvalt riksdag vart tredje år.
  Riksdagen har 60 ledamöter.
  Riksdagen utövar den lagstiftande makten och väljer ledamöterna av statskanslie
-t som ska utses av presidenten (se artikel V).
+t.
  Riksdagen fattar beslut enligt majoritetsprincipen men för att ändra denna
  grundlag krävs minst ⅔ av rösterna.
 \end_layout
 
 \begin_layout Standard
 Riksdagen är indelat i utskott som förbereder lagarna.
- Det finns tre ständiga utskott: grundlagsutskottet, finansutskottet och
- stora utskottet.
+ Det finns tre ständiga utskott: grundlagsutskottet, finansutskottet, lagutskott
+et, socialutskottet och stora utskottet.
  De övriga utskotten som ansvarar för de olika myndighetsgrenarna kan beslutas
  av riksdagen och bör regleras närmare i lag.
 \end_layout
@@ -679,11 +683,11 @@ Kanslerer, och särskilt rikskanslern, är berättigade till en statlig ersättn
 \end_layout
 
 \begin_layout Standard
-Statskansliet måste åtnjuta parlamentets förtroende.
- Parlamentet kan lägga fram ett misstroendevotum mot statskansliet om minst
- en tiondel av parlamentsledamöterna begär det.
+Statskansliet måste åtnjuta riksdagens förtroende.
+ Riksdagen kan lägga fram ett misstroendevotum mot statskansliet om minst
+ en tiondel av riksdags-ledamöterna begär det.
  För att fälla ett misstroendevotum krävs stöd av enkel majoritet.
- Statskansliet måste avgå om parlamentet inte ger sitt förtroende.
+ Statskansliet måste avgå om riksdagen inte ger sitt förtroende.
 \end_layout
 
 \begin_layout Standard
@@ -703,6 +707,8 @@ Franklands utrikespolitiska representant är presidenten, som väljs genom
  val vart fjärde år.
  Presidenten utnämner alla regeringsmedlemmar till sina befattningar.
  Presidenten har rätt att utnämna alla domare i riksrätten.
+ Presidenten ska också rätten att utnämna regeringsförhandlaren efter riksdagsva
+l.
 \end_layout
 
 \begin_layout Standard
@@ -808,8 +814,8 @@ n då föreskriva så.
 \begin_layout Standard
 Att förändra grundlagen kräver alltid en ⅔-majoritet i riksdagen för att
  tillåtas.
- Skrivningen av betänkanden om grundlagsförändringar ska höra till grundlagsutsk
-ottet.
+ Skrivningen av betänkanden om grundlagsförändringar ska höra till grundlags-uts
+kottet.
  Eljest ska grundlagstifningprocessen behandlas som vanlig lagstifning.
 \end_layout
 
@@ -817,6 +823,277 @@ ottet.
 Att förändra grundlagen kräver det också presidentens godkännande.
  Om presidenten vill inte godkänna en grundlagsförändring kan riksdagen
  tvinga förändringen genom en ⅚-majoritet.
+\end_layout
+
+\begin_layout Section
+Statsfinanserna
+\end_layout
+
+\begin_layout Subsection*
+26 § - Statens skatter och liknande avgifter
+\end_layout
+
+\begin_layout Standard
+Staten har ensamrätten att ta ut skatter och avgifter som kan jämföras med
+ skatter.
+ Alla skatter ska föreskrivas inom lagen.
+ Ständiga skatter ska vara omsättningsskatten och inkomstskatten.
+ Omsättningsskatten ska betalas av alla bolag om sina försäljningar mellan
+ bolaget och konsumenter.
+ Inkomstskatten ska betalas av alla rikets invånare av sina löneinkomster
+ och inkomster jämförande med dem.
+\end_layout
+
+\begin_layout Standard
+Närmare bestämmelser om statlig beskattning ska föreskrivas i 
+\emph on
+skattelagen
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection*
+27 § - Statens upplåning
+\end_layout
+
+\begin_layout Standard
+Staten ska kunna uppta lån för att finansiera sina spenderandet.
+ Upplåning ska behöva riksdagens godkännande.
+ Riksdagen ska kunna bestämma maximibeloppet av statsskuld för ett år.
+\end_layout
+
+\begin_layout Standard
+Statsborgen och statsgaranti ska behöva riksdagens godkännande.
+\end_layout
+
+\begin_layout Standard
+Utfallet upplåning ska hanteras av 
+\emph on
+riksbanken
+\emph default
+.
+ Statsskuldens räntekostnader ska hållas inom ramar som föreläggas i statens
+ 
+\emph on
+treårsplan
+\emph default
+ eller 
+\emph on
+statsbudget
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection*
+28 § - Statsbudgeten
+\end_layout
+
+\begin_layout Standard
+Statsfinanserna övervakas av riksdagen och styres av statskansliet, som
+ beredes 
+\emph on
+statsbudgeten
+\emph default
+ för varje år.
+ Statsbudgeten ska behöva presidentens godkännande.
+ Om presidenten vill inte ge sin godkännande kan riksdagen tvinga statsbudgeten
+ genom en ⅔-majoritet.
+\end_layout
+
+\begin_layout Standard
+Statsbudgeten ska vara i kraft ett finansår i taget och den ska baseras
+ på statskansliet proposition om den.
+ Propositionen ska överlämnas till riksdagen i god tid före finansårets
+ början.
+ Ett finansår omfattar ett år från 1 januari till 30 december.
+\end_layout
+
+\begin_layout Standard
+Riksdagen bestämmer om statsbudgeten ska införas.
+\end_layout
+
+\begin_layout Standard
+Statsbudgeten ska följa rådande praxis om hur en omfattande budget ska se
+ ut.
+ Inkomster och utgifter ska vara skilda och de ska jämföras med varandra.
+ Statsskulden ska föreskrivas skildt.
+ Alla skatter och andra avgifter ska listas och utgifter ska listas enligt
+ kanslierna.
+\end_layout
+
+\begin_layout Subsection*
+29 § - Tilläggsbudget
+\end_layout
+
+\begin_layout Standard
+Statskansliet ska överlämna en tilläggsbudgetproposition till riksdagen,
+ om det finns ett behov av att ändra statsbudgeten.
+ Tillägsbudgetpropositionen ska behandlas på samma sätt som en vanlig statsbudge
+t.
+\end_layout
+
+\begin_layout Subsection*
+30 § - Statsfinansernas ramar
+\end_layout
+
+\begin_layout Standard
+Riksdagen ska övervaka statsbudgeten genom ramar som bestäms i en 
+\emph on
+treårsplan
+\emph default
+.
+ Statskansliet beredar treårsplanen och den är gällande under valperioden.
+ Om riksdagsval ordnas tidigare än planerat, ska det nya statskansliet bereda
+ en ny treårsplan.
+\end_layout
+
+\begin_layout Standard
+Treårsplanen ska innehålla ramar för statsfinanserna.
+ Framför allt ska treårsplanen innehålla en totalram som får inte överskridas
+ i statsfinanserna under treårsplanens giltighetstid.
+ Treårsplanen kan också innehålla ramar för varje år.
+\end_layout
+
+\begin_layout Section
+Rättskipning
+\end_layout
+
+\begin_layout Subsection*
+31 § - Dömande makt
+\end_layout
+
+\begin_layout Standard
+Dömande makt i Frankland utövas av rättsväsendet.
+ Rättsväsendet ska delas i olika rättsinstanser, som är 
+\emph on
+lägre rätt, högsta rätt
+\emph default
+ och 
+\emph on
+riksrätt
+\emph default
+.
+ Rättsinstanser inkluderar olika domstolar.
+\end_layout
+
+\begin_layout Standard
+Att döma någon krävs ett åtal.
+ Alla åtal ska behandlas i lägre rätt i första hand.
+ En dömd person eller juridisk person ska kunna överklaga domen hos högsta
+ rätt.
+ Högsta rätts dom ska vara slutlig.
+\end_layout
+
+\begin_layout Standard
+Domstolar ska inte kunna döma någon utan ett åtal.
+ Domstolar och åtalande myndigheter ska vara skilda.
+\end_layout
+
+\begin_layout Standard
+Domstolar och åtalande myndigheter ska föreskrivas närmare i 
+\emph on
+rättslagen
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection*
+32 § - Lägre rätt
+\end_layout
+
+\begin_layout Standard
+Lägre rätt ska behandla alla åtal i första hand.
+ Lägra rätten ska vara delat i landskapliga landsrätter.
+ En landsrätt ska kunna behandla brott som kan förutsättas att ha hänt endast
+ i sin område.
+\end_layout
+
+\begin_layout Subsection*
+33 § - Högsta rätt
+\end_layout
+
+\begin_layout Standard
+Högsta rätt är både en rättsinstans och domstol.
+ Dess uppgift är att behandla alla rättsfall som har överklagats i landsrätter.
+\end_layout
+
+\begin_layout Subsection*
+34 § - Riksrätt
+\end_layout
+
+\begin_layout Standard
+Riksrätt ska behandla alla åtal som medlemmar av statskansliet, riksdagen
+ eller presidentskansliet får.
+ Riksrättens domar ska inte kunna överklagas.
+\end_layout
+
+\begin_layout Subsection*
+35 § - Åklagarna
+\end_layout
+
+\begin_layout Standard
+Endast åklagarna ska väcka åtal mot någon person eller juridisk person.
+ För att väcka åtal krävs polisens framställning.
+ Alla åklagarna ska arbeta i åklagarmyndigheten som är delat i olika landsåklaga
+rmyndigheter.
+\end_layout
+
+\begin_layout Subsection*
+36 § - Laglighetskontroll
+\end_layout
+
+\begin_layout Standard
+Riksdagens lagutskott ska övervaka lagligheten hos myndigheter och centrala
+ förvaltningen.
+ Alla beslut av myndigheter ska kunna överklagas i en domstol.
+ Lagutskottets ordförande ska särskilt övervaka statskansliets och presidentens
+ ämbetsåtgärder.
+\end_layout
+
+\begin_layout Subsection*
+37 § - Strafflagen
+\end_layout
+
+\begin_layout Standard
+Domstolar ska kunna sätta straffrättsliga påföljd på personer eller juridiska
+ personer som har dömats.
+ Alla påföljd ska grundas i 
+\emph on
+strafflagen
+\emph default
+.
+\end_layout
+
+\begin_layout Section
+Slutliga författningar
+\end_layout
+
+\begin_layout Subsection*
+38 § - Förändringar
+\end_layout
+
+\begin_layout Standard
+Denna grundlag är samma som den som föreskrevs den 6 januari 2012.
+ Grundlagen har föreskrivits på nytt den 15 oktober 2025 men namnet ska
+ inte ändras eftersom innehållet nästan är detsamma som den 6 januari 2012.
+\end_layout
+
+\begin_layout Subsection*
+39 § - Ikrafträndande
+\end_layout
+
+\begin_layout Standard
+Denna förnyade grundlagen träder i kraft den 1 januari 2026.
+ Hänvisningen till grundlagen ska ändå stanna som 
+\emph on
+grundlag (1/2012)
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Riksdagen har godkännt förändrigar till grundlagen enligt ⅔-majoriteten
+ som krävs, med röster 34 ─ 3, den 16 oktober 2025.
 \end_layout
 
 \end_body
