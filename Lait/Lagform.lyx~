@@ -1,0 +1,1100 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{Franklands riksdag}
+\usepackage{tocloft}
+\usepackage{titletoc}
+\usepackage{calc}
+
+\makeatletter
+\let\oldsubsection\subsection
+\renewcommand{\subsection}{\@ifstar{\starredsubsection}{\unstarredsubsection}}
+\newcommand{\starredsubsection}[1]{%
+    \oldsubsection*{#1}%
+    \addcontentsline{toc}{subsection}{#1}}
+\newcommand{\unstarredsubsection}[1]{%
+    \oldsubsection{#1}%
+    \addcontentsline{toc}{subsection}{#1}}
+\makeatother
+
+
+\renewcommand{\contentsname}{\centering INNEHÅLLSFÖRTECKNING}
+
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+% Remove vertical space between sections in ToC
+\setlength{\cftbeforesecskip}{0pt}
+
+\titlecontents{section}[0em]{\bfseries}{\contentslabel{2.3em}}{\hspace*{-2.3em}}{\titlerule*[0.8pc]{.}\contentspage}
+\titlecontents{subsection}[6.1em]{}{\contentslabel{6.1em}}{\hspace*{-6.1em}}{\titlerule*[0.8pc]{.}\contentspage}
+
+% Add dots at the end of section titles in ToC
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+\end_preamble
+\use_default_options true
+\begin_modules
+customHeadersFooters
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language swedish
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 2
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 254mm
+\topmargin 2cm
+\rightmargin 317mm
+\bottommargin 2cm
+\headheight 2cm
+\headsep 2cm
+\footskip 2cm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swedish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\size giant
+Grundlag
+\end_layout
+
+\begin_layout Date
+6 januari 2012
+\end_layout
+
+\begin_layout Address
+\noindent
+\align center
+Nyholm
+\end_layout
+
+\begin_layout Standard
+President Lé Andersson
+\end_layout
+
+\begin_layout Standard
+Rikskansler Chris Linter
+\end_layout
+
+\begin_layout Standard
+Talman Silvia Mogdad
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/niilo/Documents/riksdagen-logo-zip-file/png/logo-no-background.png
+	lyxscale 10
+	scale 20
+	BoundingBox -360bp 0bp 1000bp 1150bp
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Right Header
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thepage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Statsförfattning
+\end_layout
+
+\begin_layout Subsection*
+1 § - Allmän statsförfattning
+\end_layout
+
+\begin_layout Standard
+Staten Frankland på sitt territorium skapar sina medborgare.
+ Frankland är suverän, självständig och fullmäktig stat där makt hör till
+ folk av den.
+\end_layout
+
+\begin_layout Subsection*
+2 § - Maktdelning
+\end_layout
+
+\begin_layout Standard
+Maktdelningen i Frankland överensstämmer med Montesquieus maktdelningsprincip,
+ vilket innebär att den lagstiftande, verkställande och dömande makten är
+ avskilda.
+\end_layout
+
+\begin_layout Section
+Grundläggande rättigheter
+\end_layout
+
+\begin_layout Subsection*
+3 § - Rättigheter i födelse
+\end_layout
+
+\begin_layout Standard
+Alla människor är födda fria och lika i värde och rättigheter.
+ De har utrustats med förnuft och samvete och bör handla gentemot varandra
+ i en anda av gemenskap.
+ 
+\end_layout
+
+\begin_layout Subsection*
+4 § - Rättigheters gällande
+\end_layout
+
+\begin_layout Standard
+Var och en är berättigad till alla de rättigheter och friheter som uttalas
+ i denna förklaring utan åtskillnad av något slag, såsom på grund av ras,
+ hudfärg, kön, språk, religion, politisk eller annan uppfattning, nationellt
+ eller socialt ursprung, egendom, börd eller ställning i övrigt.
+ Ingen åtskillnad får heller göras på grund av den politiska, rättsliga
+ eller internationella status som råder i det land eller det område som
+ en person tillhör, vare sig detta land eller område är oberoende, står
+ under förvaltarskap, är icke-självstyrande eller är underkastat någon annan
+ begränsning av sin suveränitet.
+\end_layout
+
+\begin_layout Subsection*
+5 § - Frihet
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till liv, frihet och personlig säkerhet.
+\end_layout
+
+\begin_layout Standard
+Ingen får hållas i slaveri eller träldom; slaveri och slavhandel i alla
+ dess former skall vara förbjudna.
+\end_layout
+
+\begin_layout Standard
+Ingen får utsättas för tortyr eller grym, omänsklig eller förnedrande behandling
+ eller bestraffning.
+\end_layout
+
+\begin_layout Standard
+Ingen får godtyckligt anhållas, hållas fängslad eller landsförvisas.
+\end_layout
+
+\begin_layout Subsection*
+6 § - Rättigheter inför lagen
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt att överallt erkännas som en person i lagens mening.
+\end_layout
+
+\begin_layout Standard
+Alla är lika inför lagen och är berättigade till samma skydd av lagen utan
+ diskriminering av något slag.
+ Alla är berättigade till samma skydd mot alla former av diskriminering
+ som strider mot denna förklaring och mot varje anstiftan till sådan diskriminer
+ing.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till verksam hjälp från sitt lands nationella domstolar
+ mot handlingar som kränker hans eller hennes grundläggande rättigheter
+ enligt denna lagen.
+\end_layout
+
+\begin_layout Subsection*
+7 § - Rättigheter i rätten
+\end_layout
+
+\begin_layout Standard
+Ingen får godtyckligt anhållas, hållas fängslad eller landsförvisas.
+\end_layout
+
+\begin_layout Standard
+Var och en är på samma villkor berättigad till en rättvis och offentlig
+ förhandling vid en oberoende och opartisk domstol vid prövningen av hans
+ eller hennes rättigheter och skyldigheter och av varje anklagelse om brott
+ mot honom eller henne.
+\end_layout
+
+\begin_layout Standard
+Var och en som är anklagad för brott har rätt att betraktas som oskyldig
+ till dess att hans eller hennes skuld lagligen har fastställts vid en offentlig
+ rättegång, där personen åtnjuter alla rättssäkerhetsgarantier som behövs
+ för hans eller hennes försvar.
+\end_layout
+
+\begin_layout Standard
+Ingen får fällas till ansvar för en gärning eller underlåtenhet som inte
+ utgjorde ett brott enligt nationell eller internationell lag vid den tidpunkt
+ då den begicks.
+ Det får inte heller utmätas strängare straff än vad som var tillämpligt
+ vid den tidpunkt brottet begicks.
+\end_layout
+
+\begin_layout Subsection*
+8 § - Integritet
+\end_layout
+
+\begin_layout Standard
+Ingen får utsättas för godtyckligt ingripande i fråga om privatliv, familj,
+ hem eller korrespondens och inte heller för angrepp på sin heder eller
+ sitt anseende.
+ Var och en har rätt till lagens skydd mot sådana ingripanden och angrepp.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt att fritt förflytta sig och välja bostadsort inom varje
+ stats gränser.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt att lämna varje land, även sitt eget, och att återvända
+ till sitt land.
+\end_layout
+
+\begin_layout Subsection*
+9 § - Skyddning och nationalitet
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt att i andra länder söka och åtnjuta asyl från förföljelse.
+ Denna rätt får inte åberopas vid rättsliga åtgärder som genuint grundas
+ på icke-politiska brott eller på gärningar som strider mot Förenta nationernas
+ ändamål och grundsatser.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till en nationalitet.
+ Ingen får godtyckligt fråntas sin nationalitet eller nekas rätten att ändra
+ nationalitet.
+\end_layout
+
+\begin_layout Subsection*
+10 § - Familj
+\end_layout
+
+\begin_layout Standard
+Fullvuxna män och kvinnor har rätt att utan någon inskränkning med avseende
+ på ras, nationalitet eller religion ingå äktenskap och bilda familj.
+ Män och kvinnor skall ha samma rättigheter i fråga om äktenskaps ingående,
+ under äktenskapet och vid dess upplösning.
+\end_layout
+
+\begin_layout Standard
+Äktenskap får endast ingås med de blivande makarnas fria och fulla samtycke.
+\end_layout
+
+\begin_layout Standard
+Familjen är den naturliga och grundläggande enheten i samhället och har
+ rätt till samhällets och statens skydd.
+\end_layout
+
+\begin_layout Subsection*
+11 § - Egendom
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt att äga egendom, både enskilt och tillsammans med andra.
+ Ingen får godtyckligt fråntas sin egendom.
+\end_layout
+
+\begin_layout Subsection*
+12 § - Tro och förtroende
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till tankefrihet, samvetsfrihet och religionsfrihet.
+ Denna rätt innefattar frihet att byta religion och trosuppfattning och
+ att, ensam eller i gemenskap med andra, offentligen eller enskilt, utöva
+ sin religion eller trosuppfattning genom undervisning, andaktsutövning,
+ gudstjänst och religiösa sedvänjor.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till åsiktsfrihet och yttrandefrihet.
+ Denna rätt innefattar frihet att utan ingripande hysa åsikter samt söka,
+ ta emot och sprida information och idéer med hjälp av alla uttrycksmedel
+ och oberoende av gränser.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till frihet i fråga om fredliga möten och sammanslutningar.
+ Ingen får tvingas att tillhöra en sammanslutning.
+\end_layout
+
+\begin_layout Subsection*
+13 § - Val och demokrati
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt att delta i sitt lands styre, direkt eller genom fritt
+ valda ombud.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till lika tillträde till offentlig tjänst i sitt land.
+\end_layout
+
+\begin_layout Standard
+Folkets vilja skall utgöra grundvalen för statsmakternas myndighet.
+ Folkviljan skall uttryckas i periodiska och verkliga val, som skall genomföras
+ med tillämpning av allmän och lika rösträtt och hemlig röstning eller ett
+ likvärdigt fritt röstförfarande.
+\end_layout
+
+\begin_layout Subsection*
+14 § - Sociala rättigheter
+\end_layout
+
+\begin_layout Standard
+Var och en har, i egenskap av samhällsmedlem, rätt till social trygghet,
+ och är berättigad till att de ekonomiska, sociala och kulturella rättigheter
+ som krävs för hävdandet av hans eller hennes människovärde och utvecklingen
+ av hans eller hennes personlighet, förverkligas genom nationella åtgärder
+ och mellanfolkligt samarbete i enlighet med varje stats organisation och
+ resurser.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till arbete, fritt val av sysselsättning, rättvisa och
+ tillfredsställande arbetsförhållanden samt till skydd mot arbetslöshet.
+\end_layout
+
+\begin_layout Standard
+Var och en har utan diskriminering rätt till lika lön för lika arbete.
+\end_layout
+
+\begin_layout Standard
+Var och en som arbetar har rätt till en rättvis och tillfredsställande ersättnin
+g som ger honom eller henne och hans eller hennes familj en människovärdig
+ tillvaro och som vid behov kan kompletteras med andra medel för socialt
+ skydd.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt att bilda och ansluta sig till fackföreningar för att
+ värna sina intressen.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till en levnadsstandard tillräcklig för den egna och
+ familjens hälsa och välbefinnande, inklusive mat, kläder, bostad, hälsovård
+ och nödvändiga sociala tjänster samt rätt till trygghet i händelse av arbetslös
+het, sjukdom, invaliditet, makas eller makes död, ålderdom eller annan förlust
+ av försörjning under omständigheter utanför hans eller hennes kontroll.
+\end_layout
+
+\begin_layout Standard
+Mödrar och barn är berättigade till särskild omvårdnad och hjälp.
+ Alla barn skall åtnjuta samma sociala skydd, vare sig de är födda inom
+ eller utom äktenskapet.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till ett socialt och internationellt system där de rättighet
+er och friheter som behandlas i denna förklaring till fullo kan förverkligas.
+\end_layout
+
+\begin_layout Standard
+Var och en har plikter mot samhället, i vilket den fria och fullständiga
+ utvecklingen av hans eller hennes personlighet ensamt är möjlig.
+\end_layout
+
+\begin_layout Standard
+Vid utövandet av sina rättigheter och friheter får en person endast underkastas
+ sådana inskränkningar som har fastställts i lag och enbart i syfte att
+ trygga tillbörlig hänsyn till och respekt för andras rättigheter och friheter
+ samt för att tillgodose ett demokratiskt samhälles berättigade krav på
+ moral, allmän ordning och allmän välfärd.
+\end_layout
+
+\begin_layout Subsection*
+15 § - Informativa rättigheter
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till utbildning.
+ Utbildningen skall vara kostnadsfri, åtminstone på de elementära och grundlägga
+nde stadierna.
+ Den elementära utbildningen skall vara obligatorisk.
+ Yrkesutbildning och teknisk utbildning skall vara tillgänglig för alla.
+ Den högre utbildningen skall vara öppen för alla med hänsyn till deras
+ förmåga.
+\end_layout
+
+\begin_layout Standard
+Utbildningen skall syfta till att utveckla personligheten till fullo och
+ till att stärka respekten för de mänskliga rättigheterna och de grundläggande
+ friheterna.
+ Utbildningen skall också främja förståelse, tolerans och vänskap mellan
+ alla nationer, rasgrupper och religiösa grupper samt främja Förenta nationernas
+ verksamhet för fredens bevarande.
+\end_layout
+
+\begin_layout Standard
+Rätten att välja utbildning för barnen tillkommer i första hand deras föräldrar.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt att fritt delta i samhällets kulturella liv, att njuta
+ av konst samt att få ta del av vetenskapens framsteg och dess förmåner.
+\end_layout
+
+\begin_layout Standard
+Var och en har rätt till skydd för de ideella och materiella intressen som
+ härrör från vetenskapliga, litterära och konstnärliga verk till vilka han
+ eller hon är upphovsman.
+\end_layout
+
+\begin_layout Section
+Undantag och säkerhet
+\end_layout
+
+\begin_layout Subsection*
+16 § - Exceptionella förhållanden
+\end_layout
+
+\begin_layout Standard
+När Frankland stöter på ett allvarligt nationellt hot som har en direkt
+ inverkan på medborgarnas säkerhet och autonomi, kan parlamentet anta beredskaps
+lagen med kvalificerad ⅔ majoritet.
+\end_layout
+
+\begin_layout Subsection*
+17 § - Allmän säkerhet
+\end_layout
+
+\begin_layout Standard
+Polisen och armén ansvarar hela tiden för statens säkerhet.
+ Armén är en frivillig, beväpnad säkerhetsinstitution som kontrolleras av
+ folket i Frankland och dess representation.
+ Låt armén regleras närmare i lag.
+\end_layout
+
+\begin_layout Standard
+Polisen är en nästan beväpnad institution under överinseende av Franklands
+ centralregering med ansvar för säkerhet, med uppgift att upprätthålla lagen
+ och skydda medborgarna.
+ Låt polisen regleras närmare i lag.
+ 
+\end_layout
+
+\begin_layout Section
+Lagstiftande makt
+\end_layout
+
+\begin_layout Subsection*
+18 § - Riksdagen
+\end_layout
+
+\begin_layout Standard
+Frankland är en representativ demokrati.
+ Folket representeras demokratiskt av ett folkvalt riksdag vart tredje år.
+ Riksdagen har 60 ledamöter.
+ Riksdagen utövar den lagstiftande makten och väljer ledamöterna av statskanslie
+t.
+ Riksdagen fattar beslut enligt majoritetsprincipen men för att ändra denna
+ grundlag krävs minst ⅔ av rösterna.
+\end_layout
+
+\begin_layout Standard
+Riksdagen är indelat i utskott som förbereder lagarna.
+ Det finns tre ständiga utskott: grundlagsutskottet, finansutskottet, lagutskott
+et, socialutskottet och stora utskottet.
+ De övriga utskotten som ansvarar för de olika myndighetsgrenarna kan beslutas
+ av riksdagen och bör regleras närmare i lag.
+\end_layout
+
+\begin_layout Standard
+Innan en lag ska stiftas måste den bli godkänd av stora utskottet.
+\end_layout
+
+\begin_layout Standard
+Till riksdagsledamöter ska tillkomma en tillräcklig och betydande arvodeslön.
+\end_layout
+
+\begin_layout Subsection*
+19 § - Riksdags talman och personal
+\end_layout
+
+\begin_layout Standard
+Riksdagens tal, uppgifter, plenarsammanträden och debatter leds av en talman
+ och två vice talmän vald av parlamentet.
+ Talmannen får inte rösta i riksdag och ska sträva efter opartiskhet trots
+ sina egna politiska åsikter.
+\end_layout
+
+\begin_layout Standard
+Till talmannen och talmännen tillkommer en tillräcklig och betydande arvodeslön
+ som överstiger det belopp som en riksdagsledamot erhåller.
+ Det är att betona att arvodeslönerna för talmännen inte får överstiga talmannen
+s arvodeslön.
+\end_layout
+
+\begin_layout Standard
+Riksdagens räkenskaper förvaltas av en huvudsekreterare som utses av talmannen.
+ Talmannen och huvudsekreteraren ska väljas för ett år i taget och är valbara
+ för omval.
+ Dessutom kan talmannens uppgifter tas hand om av den Förste vice talman
+ och den Andre vice talman.
+ Mandatperioden för vice talmännen ska vara ett år och omval ska vara möjligt.
+\end_layout
+
+\begin_layout Section
+Verkställande makt
+\end_layout
+
+\begin_layout Subsection*
+20 § - Regeringen
+\end_layout
+
+\begin_layout Standard
+Den verkställande makten i Frankland utövas av en regering som bildas av
+ statskansli och president.
+\end_layout
+
+\begin_layout Standard
+Regeringen har rätt att utfärda förordningar, lämna regeringspropositioner
+ och har även rätt att förbereda en statsbudget.
+ Regelverket och budgeten kräver godkännande av enkel majoritet i riksdagen
+ för att träda i kraft.
+\end_layout
+
+\begin_layout Standard
+Regeringens representant är presidenten.
+ Rikskanslern är regeringens ordförande och motsvarar en verkställande direktör.
+ Regeringen består av kanslier för olika myndighetsgrenar som är underställda
+ regeringen.
+ Kanslierna leds av kanslerer.
+\end_layout
+
+\begin_layout Standard
+Kanslerer, och särskilt rikskanslern, är berättigade till en statlig ersättning
+ för förvaltningen av statsförvaltningen, vars storlek bestäms särskilt
+ genom lag.
+ Rikskanslerns ersättning ska motsvara den som talmannen får som arvodeslön.
+ Andra kanslerers ersättningar ska motsvara de som andra talmännen får som
+ arvodeslön.
+\end_layout
+
+\begin_layout Standard
+Statskansliet måste åtnjuta riksdagens förtroende.
+ Riksdagen kan lägga fram ett misstroendevotum mot statskansliet om minst
+ en tiondel av riksdags-ledamöterna begär det.
+ För att fälla ett misstroendevotum krävs stöd av enkel majoritet.
+ Statskansliet måste avgå om riksdagen inte ger sitt förtroende.
+\end_layout
+
+\begin_layout Standard
+När det talas om 
+\emph on
+regering
+\emph default
+ i lag ska det på första hand hänvisas till statskansliet.
+\end_layout
+
+\begin_layout Subsection*
+21 § - Presidenten
+\end_layout
+
+\begin_layout Standard
+Franklands utrikespolitiska representant är presidenten, som väljs genom
+ val vart fjärde år.
+ Presidenten utnämner alla regeringsmedlemmar till sina befattningar.
+ Presidenten har rätt att utnämna alla domare i riksrätten.
+ Presidenten ska också rätten att utnämna regeringsförhandlaren efter riksdagsva
+l.
+\end_layout
+
+\begin_layout Standard
+Statssekreterare, som ska utnämnas av statskansliet och presidenten i samarbete,
+ ska tjänstgöra som presidents attachéer.
+ Presidenten tar emot statliga gäster och underskriver alla diplomatiska
+ avtal.
+\end_layout
+
+\begin_layout Standard
+Presidenten ska ha rätten till att lägga fram ett misstroendevotum mot statskans
+liet om samarbete med det fungerar inte.
+ Statskansliet kan lägga fram ett likadant misstroendevotum mot presidenten
+ på den samma grunden.
+ Det krävs ändå minst ⅔ rösterna för att presidenten skulle bli tvungen
+ att avsäga sig.
+\end_layout
+
+\begin_layout Standard
+Presidenten ska få en arvodeslön som motsvarar åtminstone den some talmannen
+ får årligen.
+ Arvodeslönen ska betalas i samma tidsperiod som andra ersättningar och
+ arvode till medlem av statskansliet och riksdagen.
+\end_layout
+
+\begin_layout Section
+Lagstifningen
+\end_layout
+
+\begin_layout Subsection*
+22 § - Propositioner
+\end_layout
+
+\begin_layout Standard
+Lagförslag, alltså en proposition att ändra eller upphäva en befintlig lag
+ eller att stifta en ny lag, kan lämnas in av presidenten, statskansliet,
+ ett utskott eller en enskild riksdagsledamot.
+ Dessutom, om en lagförslag från folket får över 100 underskrifter, måste
+ det lämnas in till riksdagen.
+\end_layout
+
+\begin_layout Subsection*
+23 § - Lagstifningen
+\end_layout
+
+\begin_layout Standard
+Riksdagen fattar beslutet att ta ett lagförslag till behandling.
+ Lagförslaget måste behandlas av det utskottet som motsvarar lagförslagets
+ ansvarsområde.
+ Utskottet ska skriva ett betänkande som ska användas som utkast till den
+ nya lagen.
+\end_layout
+
+\begin_layout Standard
+Betänkandet behandlas av riksdagen i en remissdebatt, vilken ska hållas
+ senast en månad efter att betänkandet har färdigställts.
+ Huvudsekreteraren av riksdagen ska dokumentera alla framförda åsikter i
+ en promemoria.
+\end_layout
+
+\begin_layout Standard
+Promemorian av remissdebatten och det ursprungliga betänkandet ska behandlas
+ och granskas av grundlagsutskottet.
+ Grundlagsutskottet ska säkerställa att lagförslaget överensstämmer med
+ grundlagen.
+ Efter grundlagsutskottets granskning ska lagförslaget behandlas av stora
+ utskottet.
+ Stora utskottet ska författa den slutgiltiga versionen av lagen.
+\end_layout
+
+\begin_layout Standard
+Riksdagen fattar beslut om lagstifningen i en omröstning.
+ Om lagförslaget godkänns, stiftas lagen.
+ Om lagförslaget förkastas ska det behandlas igen av stora utskottet.
+ Lagförslaget förkastas slutligen om det förkastas i den andra omröstningen.
+ Presidenten ska också ha rätten att kräva en ny behandling av stora utskottet.
+ Presidenten ska också ha rätten att fördröja lagen i ett år, varpå riksdagen
+ ska rösta igen.
+\end_layout
+
+\begin_layout Subsection*
+24 § - Regerings förordningar
+\end_layout
+
+\begin_layout Standard
+Vad föreskrivs inte i lagen ska regeringen kunna föreskriva i fördordningar.
+ Fördordningar måste dock överensstämma med alla lagar som riksdagen har
+ stiftat.
+ Riksdagen ska fatta beslut om godkännande av förordningar.
+\end_layout
+
+\begin_layout Standard
+Om det skrivs i lagen att någonting föreskrivs genom förordning, måste regeringe
+n då föreskriva så.
+ Om det skrivs i lagen att vem som ska föreskriva genom förordning, då ska
+ bara den som det gäller göra så.
+\end_layout
+
+\begin_layout Subsection*
+25 § - Grundlagstifningen
+\end_layout
+
+\begin_layout Standard
+Att förändra grundlagen kräver alltid en ⅔-majoritet i riksdagen för att
+ tillåtas.
+ Skrivningen av betänkanden om grundlagsförändringar ska höra till grundlags-uts
+kottet.
+ Eljest ska grundlagstifningprocessen behandlas som vanlig lagstifning.
+\end_layout
+
+\begin_layout Standard
+Att förändra grundlagen kräver det också presidentens godkännande.
+ Om presidenten vill inte godkänna en grundlagsförändring kan riksdagen
+ tvinga förändringen genom en ⅚-majoritet.
+\end_layout
+
+\begin_layout Section
+Statsfinanserna
+\end_layout
+
+\begin_layout Subsection*
+26 § - Statens skatter och liknande avgifter
+\end_layout
+
+\begin_layout Standard
+Staten har ensamrätten att ta ut skatter och avgifter som kan jämföras med
+ skatter.
+ Alla skatter ska föreskrivas inom lagen.
+ Ständiga skatter ska vara omsättningsskatten och inkomstskatten.
+ Omsättningsskatten ska betalas av alla bolag om sina försäljningar mellan
+ bolaget och konsumenter.
+ Inkomstskatten ska betalas av alla rikets invånare av sina löneinkomster
+ och inkomster jämförande med dem.
+\end_layout
+
+\begin_layout Standard
+Närmare bestämmelser om statlig beskattning ska föreskrivas i 
+\emph on
+skattelagen
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection*
+27 § - Statens upplåning
+\end_layout
+
+\begin_layout Standard
+Staten ska kunna uppta lån för att finansiera sina spenderandet.
+ Upplåning ska behöva riksdagens godkännande.
+ Riksdagen ska kunna bestämma maximibeloppet av statsskuld för ett år.
+\end_layout
+
+\begin_layout Standard
+Statsborgen och statsgaranti ska behöva riksdagens godkännande.
+\end_layout
+
+\begin_layout Standard
+Utfallet upplåning ska hanteras av 
+\emph on
+riksbanken
+\emph default
+.
+ Statsskuldens räntekostnader ska hållas inom ramar som föreläggas i statens
+ 
+\emph on
+treårsplan
+\emph default
+ eller 
+\emph on
+statsbudget
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection*
+28 § - Statsbudgeten
+\end_layout
+
+\begin_layout Standard
+Statsfinanserna övervakas av riksdagen och styres av statskansliet, som
+ beredes 
+\emph on
+statsbudgeten
+\emph default
+ för varje år.
+ Statsbudgeten ska behöva presidentens godkännande.
+ Om presidenten vill inte ge sin godkännande kan riksdagen tvinga statsbudgeten
+ genom en ⅔-majoritet.
+\end_layout
+
+\begin_layout Standard
+Statsbudgeten ska vara i kraft ett finansår i taget och den ska baseras
+ på statskansliet proposition om den.
+ Propositionen ska överlämnas till riksdagen i god tid före finansårets
+ början.
+ Ett finansår omfattar ett år från 1 januari till 30 december.
+\end_layout
+
+\begin_layout Standard
+Riksdagen bestämmer om statsbudgeten ska införas.
+\end_layout
+
+\begin_layout Standard
+Statsbudgeten ska följa rådande praxis om hur en omfattande budget ska se
+ ut.
+ Inkomster och utgifter ska vara skilda och de ska jämföras med varandra.
+ Statsskulden ska föreskrivas skildt.
+ Alla skatter och andra avgifter ska listas och utgifter ska listas enligt
+ kanslierna.
+\end_layout
+
+\begin_layout Subsection*
+29 § - Tilläggsbudget
+\end_layout
+
+\begin_layout Standard
+Statskansliet ska överlämna en tilläggsbudgetproposition till riksdagen,
+ om det finns ett behov av att ändra statsbudgeten.
+ Tillägsbudgetpropositionen ska behandlas på samma sätt som en vanlig statsbudge
+t.
+\end_layout
+
+\begin_layout Subsection*
+30 § - Statsfinansernas ramar
+\end_layout
+
+\begin_layout Standard
+Riksdagen ska övervaka statsbudgeten genom ramar som bestäms i en 
+\emph on
+treårsplan
+\emph default
+.
+ Statskansliet beredar treårsplanen och den är gällande under valperioden.
+ Om riksdagsval ordnas tidigare än planerat, ska det nya statskansliet bereda
+ en ny treårsplan.
+\end_layout
+
+\begin_layout Standard
+Treårsplanen ska innehålla ramar för statsfinanserna.
+ Framför allt ska treårsplanen innehålla en totalram som får inte överskridas
+ i statsfinanserna under treårsplanens giltighetstid.
+ Treårsplanen kan också innehålla ramar för varje år.
+\end_layout
+
+\begin_layout Section
+Rättskipning
+\end_layout
+
+\begin_layout Subsection*
+31 § - Dömande makt
+\end_layout
+
+\begin_layout Standard
+Dömande makt i Frankland utövas av rättsväsendet.
+ Rättsväsendet ska delas i olika rättsinstanser, som är 
+\emph on
+lägre rätt, högsta rätt
+\emph default
+ och 
+\emph on
+riksrätt
+\emph default
+.
+ Rättsinstanser inkluderar olika domstolar.
+\end_layout
+
+\begin_layout Standard
+Att döma någon krävs ett åtal.
+ Alla åtal ska behandlas i lägre rätt i första hand.
+ En dömd person eller juridisk person ska kunna överklaga domen hos högsta
+ rätt.
+ Högsta rätts dom ska vara slutlig.
+\end_layout
+
+\begin_layout Standard
+Domstolar ska inte kunna döma någon utan ett åtal.
+ Domstolar och åtalande myndigheter ska vara skilda.
+\end_layout
+
+\begin_layout Standard
+Domstolar och åtalande myndigheter ska föreskrivas närmare i 
+\emph on
+rättslagen
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection*
+32 § - Lägre rätt
+\end_layout
+
+\begin_layout Standard
+Lägre rätt ska behandla alla åtal i första hand.
+ Lägra rätten ska vara delat i landskapliga landsrätter.
+ En landsrätt ska kunna behandla brott som kan förutsättas att ha hänt endast
+ i sin område.
+\end_layout
+
+\begin_layout Subsection*
+33 § - Högsta rätt
+\end_layout
+
+\begin_layout Standard
+Högsta rätt är både en rättsinstans och domstol.
+ Dess uppgift är att behandla alla rättsfall som har överklagats i landsrätter.
+\end_layout
+
+\begin_layout Subsection*
+34 § - Riksrätt
+\end_layout
+
+\begin_layout Standard
+Riksrätt ska behandla alla åtal som medlemmar av statskansliet, riksdagen
+ eller presidentskansliet får.
+ Riksrättens domar ska inte kunna överklagas.
+\end_layout
+
+\begin_layout Subsection*
+35 § - Åklagarna
+\end_layout
+
+\begin_layout Standard
+Endast åklagarna ska väcka åtal mot någon person eller juridisk person.
+ För att väcka åtal krävs polisens framställning.
+ Alla åklagarna ska arbeta i åklagarmyndigheten som är delat i olika landsåklaga
+rmyndigheter.
+\end_layout
+
+\begin_layout Subsection*
+36 § - Laglighetskontroll
+\end_layout
+
+\begin_layout Standard
+Riksdagens lagutskott ska övervaka lagligheten hos myndigheter och centrala
+ förvaltningen.
+ Alla beslut av myndigheter ska kunna överklagas i en domstol.
+ Lagutskottets ordförande ska särskilt övervaka statskansliets och presidentens
+ ämbetsåtgärder.
+\end_layout
+
+\begin_layout Subsection*
+37 § - Strafflagen
+\end_layout
+
+\begin_layout Standard
+Domstolar ska kunna sätta straffrättsliga påföljd på personer eller juridiska
+ personer som har dömats.
+ Alla påföljd ska grundas i 
+\emph on
+strafflagen
+\emph default
+.
+\end_layout
+
+\begin_layout Section
+Slutliga författningar
+\end_layout
+
+\begin_layout Subsection*
+38 § - Förändringar
+\end_layout
+
+\begin_layout Standard
+Denna grundlag är samma som den som föreskrevs den 6 januari 2012.
+ Grundlagen har föreskrivits på nytt den 15 oktober 2025 men namnet ska
+ inte ändras eftersom innehållet nästan är detsamma som den 6 januari 2012.
+\end_layout
+
+\begin_layout Subsection*
+39 § - Ikrafträdande
+\end_layout
+
+\begin_layout Standard
+Denna förnyade grundlagen träder i kraft den 1 januari 2026.
+ Hänvisningen till grundlagen ska ändå stanna som 
+\emph on
+grundlag (1/2012)
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Riksdagen har godkännt förändrigar till grundlagen enligt ⅔-majoriteten
+ som krävs, med röster 34 ─ 3, den 16 oktober 2025.
+\end_layout
+
+\end_body
+\end_document
