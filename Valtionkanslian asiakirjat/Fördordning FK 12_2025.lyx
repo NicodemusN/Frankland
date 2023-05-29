@@ -198,7 +198,8 @@ thepage
 \begin_layout Standard
 \noindent
 \align center
-Enligt skattelagen föreskrivs följande:
+Med bemyndigande att utfärda förordningar av statskansliet föreskrivs följande
+ enligt skattelagen:
 \end_layout
 
 \begin_layout Standard
@@ -207,6 +208,224 @@ Enligt skattelagen föreskrivs följande:
 
 \series bold
 1 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Skattetabellen ska innehålla sju rader som motsvarar olika inkomstnivåer.
+ Inkomstskatteprocenten för varje person ska bestämmas genom tabellen, progressi
+vt och enligt personens beskattningsbara inkomster.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Skattprogression, %
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inkomstgräns / år, tn euro
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6,73
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6 648
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9,42
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12 964
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13,19
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25 279
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18,47
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+49 294
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25,85
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+96 123
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+34,13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+187 441
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45,05
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+365 510
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+2 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Fordonsskatt ska vara precis 18,00 % för år 2026.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+3 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Sjukförsäkringsavgifter ska vara precis 1,14 % av en persons årliga inkomster.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+4 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Pensionsförsäkringsavgifter ska vara precis 1,00 % av en persons årliga
+ inkomster.
 \end_layout
 
 \end_body
