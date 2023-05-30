@@ -1,0 +1,434 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{Franklands riksdag}
+\usepackage{tocloft}
+\usepackage{titletoc}
+\usepackage{calc}
+\usepackage{titlesec}
+\usepackage{etoolbox}
+
+\makeatletter
+\let\oldsubsection\subsection
+\renewcommand{\subsection}{\@ifstar{\starredsubsection}{\unstarredsubsection}}
+\newcommand{\starredsubsection}[1]{%
+    \oldsubsection*{#1}%
+    \addcontentsline{toc}{subsection}{#1}}
+\newcommand{\unstarredsubsection}[1]{%
+    \oldsubsection{#1}%
+    \addcontentsline{toc}{subsection}{#1}}
+\makeatother
+
+
+\renewcommand{\contentsname}{\centering INNEHÅLLSFÖRTECKNING}
+
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+% Remove vertical space between sections in ToC
+\setlength{\cftbeforesecskip}{0pt}
+
+\titlecontents{section}[0em]{\bfseries}{\contentslabel{2.3em}}{\hspace*{-2.3em}}{\titlerule*[0.8pc]{.}\contentspage}
+\titlecontents{subsection}[6.1em]{}{\contentslabel{6.1em}}{\hspace*{-6.1em}}{\titlerule*[0.8pc]{.}\contentspage}
+
+% Add dots at the end of section titles in ToC
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+
+\makeatletter
+\patchcmd{\@maketitle}{\begin{center}}{\begin{center}\centering}{}{}
+\patchcmd{\@maketitle}{\end{center}}{\end{center}\par}{}{}
+\makeatother
+\end_preamble
+\use_default_options true
+\begin_modules
+customHeadersFooters
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language swedish
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 2
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 254mm
+\topmargin 2cm
+\rightmargin 317mm
+\bottommargin 2cm
+\headheight 2cm
+\headsep 2cm
+\footskip 2cm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swedish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\noindent
+SOCIALKANSLIETS FÖRORDNING
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset VSpace -1.5cm
+\end_inset
+
+om sjukförsäkring och avgifter för sociala förmåner år 2026.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+Utgiven i Nyholm den 11 januari 2026.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/niilo/Documents/GitHub/Frankland/Andra material/Logor/statskansliet-logo-zip-file/png/logo-no-background.png
+	lyxscale 10
+	scale 10
+	BoundingBox -1220bp 0bp 1000bp 1150bp
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Right Header
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thepage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.8cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+Enligt sjukvårdslagen och statsbudgeten 2026 föreskrivs följande:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+1 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Sjukförsäkringar ska betalas till sjukvårsdistrikt som överföringar.
+ Beloppet sjukförsäkringar som staten betalar för är 4 726 680 €.
+ Sjukförsäkringar betalas för varje invånare, 420 € per person.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+2 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Utkomststöd ska betalas för 1 500 personer.
+ Beloppet utkomststödet för en mottagare ska vara 1 815 €.
+ Totala beloppet av utkomststöden ska vara 2 722 500 €.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+3 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Bostadsbidrag ska betalas för 300 personer.
+ Beloppet bidraget för en mottagare ska vara 1 200 €.
+ Totala beloppet av bostadsbidragen ska vara 360 000 €.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+4 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Barnbidrag ska betalas för 1 200 personer som är föräldrar eller försörjare
+ av mindreåriga barn.
+ Barnbidrag ska betalas 810 € för varje barn.
+ Totala beloppet av barnbidragen ska vara 972 000 €.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+5 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Arbetslöshetsförmån ska betalas som inkomstrelaterad arbetslöshetsersättning.
+ Beloppet ersättningen för första halv året är 100 %, de följande tre månader
+ 80 % och de följande två månader 60 %.
+ Ersättningen betalas enligt inkomsttabellen:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Årlig inkomstgräns, €
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Arbetslöshetsförmån / arbetslös, €
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6 216
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 555
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12 432
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3 109
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24 864
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6 217
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+49 728
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12 435
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+99 456
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24 870
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Totala beloppet av arbetslöshetsförmånerna ska vara 2 657 987 €.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Socialkansler John Houston
+\end_layout
+
+\begin_layout Standard
+Kanslisekreterare Emilia Nordström
+\end_layout
+
+\end_body
+\end_document
