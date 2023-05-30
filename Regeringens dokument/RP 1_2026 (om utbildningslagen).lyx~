@@ -105,8 +105,8 @@ figs-within-sections
 \headheight 2cm
 \headsep 2cm
 \footskip 2cm
-\secnumdepth 2
-\tocdepth 2
+\secnumdepth 3
+\tocdepth 3
 \paragraph_separation skip
 \defskip medskip
 \is_math_indent 0
@@ -204,9 +204,9 @@ CHRIS LINTER
 
 \begin_layout Standard
 \align right
-x-kansler 
+Utbildningskansler 
 \emph on
-kanslers namn
+Miriam Shewett
 \end_layout
 
 \begin_layout Standard
@@ -225,19 +225,22 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Målet av propositionen
 \end_layout
 
-\begin_layout Subsection
-Exempel paragraf
+\begin_layout Standard
+Det finns ännu ingen lag som skulle föreskriva utbildning i Frankland.
+ Nuligen får den offentliga utbildningen avgifter från staten för att ordna
+ skolor och högskolor.
+ En lag bör stiftas för att föreskriva skolors förvaltning, utbildningens
+ innehåll och högskolors förvaltning.
+\end_layout
+
+\begin_layout Standard
+Genom utbildningslagen skulle det föreskrivas hur många lärare som ska arbeta
+ i en skola, hur ofta och hur mycket eleverna få och studerande få skolmat
+ och vilka ämnen och som ska erbjudas.
 \end_layout
 
 \begin_layout Section
@@ -248,12 +251,61 @@ Motivering
 Bakgrund
 \end_layout
 
+\begin_layout Standard
+Utbildningslagen skulle motiveras enligt grundlagen, särskilt § 15 
+\emph on
+(informativa rättigheter)
+\emph default
+:
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes sld
+\end_inset
+
+Var och en har rätt till utbildning.
+ Utbildningen skall vara kostnadsfri, åtminstone på de elementära och grundlägga
+nde stadierna.
+ Den elementära utbildningen skall vara obligatorisk.
+ Yrkesutbildning och teknisk utbildning skall vara tillgänglig för alla.
+ Den högre utbildningen skall vara öppen för alla med hänsyn till deras
+ förmåga.
+\begin_inset Quotes srd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Viktigheten av utbildningslagen kan jämföras med sjukvårdslagen.
+\end_layout
+
 \begin_layout Subsection
 Beredning
 \end_layout
 
+\begin_layout Standard
+Utbildningskansliet bereder utbildningslagen genom denna proposition.
+ Propositionen ska godkännas av statskansliet och presidentskansliet.
+ Beredning av propositionen händer på två olika men sammanlänkade nivåer
+ som tjänsteuppdrag och beredningsorgan.
+ Utbildningskansler ska tilldela tjänsteuppdraget uppgifter och tjänsteuppdraget
+ ska författa innehållet av propositionen.
+\end_layout
+
 \begin_layout Section
 Nuläge
+\end_layout
+
+\begin_layout Standard
+Nuläget är att det finns inga riktiga lagar eller förordningar som skulle
+ föreskriva skolors liv.
+ Utbildningskansliet har fattat rapporter av situationen i landskapens skolor
+ och verkar vara kaotisk.
+ Beloppet lärare som arbetar offentligt är besluten av statsbudgeten förordninga
+r av förvaltningen.
 \end_layout
 
 \begin_layout Section
@@ -264,8 +316,231 @@ Förslagen och deras konsekvenser
 De viktigaste förslagen
 \end_layout
 
+\begin_layout Subsubsection
+Lärartjänsten
+\end_layout
+
+\begin_layout Standard
+Utbildningskansliet föreslår att lärartjänster skulle överföras till landskapen.
+ Det bör föreskrivas i lagen hur många lärartjänster som ska finnas per
+ elev eller studerande.
+ Lärartjänster ska höra till det
+\emph on
+ offentliga avtalet
+\emph default
+.
+\end_layout
+
+\begin_layout Subsubsection
+Lågstadier
+\end_layout
+
+\begin_layout Standard
+Utbildningskansliet föreslår att det skulle finnas lågstadier som ska vara
+ hälften av grundskolan.
+ Eleverna från 7-åringar till 12-åringar skulle lära sig i något lågstadium.
+ Varje landskap bör ordna lågstadiers verksamhetsförutsättningarna.
+\end_layout
+
+\begin_layout Subsubsection
+Högstadier
+\end_layout
+
+\begin_layout Standard
+Utbildningskansliet föreslår att det skulle finnas högstadier som ska vara
+ den andra hälften av grundskolan.
+ Eleverna från 13-åringar till 16-åringar skulle lära sig i något högstadium.
+ Varje landskap måste ordna högstadiers verksamhetsförutsättningarna.
+\end_layout
+
+\begin_layout Subsubsection
+Gymnasier
+\end_layout
+
+\begin_layout Standard
+Utbildningskansliet föreslår att det skulle finnas gymnasier där eleverna
+ från grundskolan kunna fortsätta sina studier.
+ Det bör vara frivillig för ett landskap att ordna gymansiers verksamhetsförutsä
+ttningarna.
+\end_layout
+
+\begin_layout Subsubsection
+Yrkesskolor
+\end_layout
+
+\begin_layout Standard
+Utbildningskansliet föreslår att det skulle finnas yrkesskolor där eleverna
+ från grundskolan kunna lära sig ett yrke.
+ Varje landskap måste ordna yrkesundervisning.
+\end_layout
+
+\begin_layout Subsubsection
+Högskolor
+\end_layout
+
+\begin_layout Standard
+Universitet och yrkeshögskolor hör till högskolor.
+ De är skilda av landskap och fungerar som självständiga läroinrättningar.
+ Högskolor ska ha rätten till sina egen förvaltning.
+\end_layout
+
+\begin_layout Subsubsection
+Skolbyggnader
+\end_layout
+
+\begin_layout Standard
+Landskap måste erbjuda fastigheterna eller bygga byggnaderna för skolor
+ som de är ansvariga för och även ansvara för fastigheternas underhållning.
+ Staten ska erbjuda fastigheter och deras underhållning för en högskola
+ och ett gymnasium per landskap.
+\end_layout
+
+\begin_layout Subsubsection
+Undervisnings innehåll i grundskolor och gymnasier
+\end_layout
+
+\begin_layout Standard
+Det ska vara tio obligatoriska läroämnen i den grundläggande utbildningen
+ och gymnasierna.
+ Regeringen ska kunna öka antalet läroämnen genom en förordning av statskansliet.
+ De tio obligatoriska läroämnen ska vara:
+\end_layout
+
+\begin_layout Enumerate
+modersmål och litteratur
+\end_layout
+
+\begin_layout Enumerate
+matematik
+\end_layout
+
+\begin_layout Enumerate
+fysik och kemi
+\end_layout
+
+\begin_layout Enumerate
+hälsokunskap
+\end_layout
+
+\begin_layout Enumerate
+historia och samhällslära
+\end_layout
+
+\begin_layout Enumerate
+gymnastik
+\end_layout
+
+\begin_layout Enumerate
+biologi och geografi
+\end_layout
+
+\begin_layout Enumerate
+livsåskådningskunskap
+\end_layout
+
+\begin_layout Standard
+I lågstadier ska en lärare kunna lära alla de här ämnena på grundnivå.
+ I högstadier, yrkesskolor och gymnasier ska varje ämnet ha sitt egen specialise
+rade ämneslärare.
+\end_layout
+
+\begin_layout Subsubsection
+Undervisnings innehåll i yrkesskolor
+\end_layout
+
+\begin_layout Standard
+Det ska vara åtminstone tio examensdelar i yrkesskolor.
+ Landskapen kan erbjuda mera om de vill och regeringen ska kunna öka antalet
+ examina genom en förordning av statskansliet.
+ De tio examina som ska erbjudas i alla yrkesskolor ska vara:
+\end_layout
+
+\begin_layout Enumerate
+Fordonsbranschen
+\end_layout
+
+\begin_layout Enumerate
+Logistik
+\end_layout
+
+\begin_layout Enumerate
+Lantbruksbranschen
+\end_layout
+
+\begin_layout Enumerate
+Rengörins- och fastighetsbranschen
+\end_layout
+
+\begin_layout Enumerate
+Säkerhetsbranschen
+\end_layout
+
+\begin_layout Enumerate
+Instrumentvård
+\end_layout
+
+\begin_layout Enumerate
+Textil- och modebranschen
+\end_layout
+
+\begin_layout Enumerate
+Maskin- och produktionsteknik
+\end_layout
+
+\begin_layout Enumerate
+Social- och hälsovårdsbranschen
+\end_layout
+
+\begin_layout Enumerate
+Sjöfart
+\end_layout
+
 \begin_layout Subsection
 De huvudsakliga konsekvenserna
+\end_layout
+
+\begin_layout Standard
+Utbildningslagen kan påverka utgifterna för utbildningen.
+ Det beror på antalet lärare och skolor.
+ När denna lagen träds i kraft ska det bli åtminstone sju lågstadier, högstadier
+ och yrkesskolor.
+ Om alla landskap har också gymnasier, yrkeshögskolor och universitet, ska
+ det bli 42 olika läroinrättningar.
+\end_layout
+
+\begin_layout Standard
+Om alla åldersgrupper motsvarar en klass i skolan skulle det bli åtminstone
+ 98 lärartjänster i grundskola.
+ Den här räkningen antar att det skulle finnas en ämneslärare per läroämne
+ i högstadier.
+ Det är ändå önskvärt att det skulle finnas åtminstone två ämneslärare per
+ läroämne i högstadier och två lärare per åldersgrupp i lågstadier.
+ Då skulle antalet lärartjänster vara minst 196.
+\end_layout
+
+\begin_layout Standard
+Utöver grundskolan ska yrkesskolor ha ett minimiantal lärartjänster.
+ Om det ska finnas en yrkesskola i alla sju landskap och tio examina som
+ ska läras, ska det bli åtminstone 70 lärartjänster.
+ Yrkesskolor har särskilt ekonomiskt värde så utbildningskansliet anser
+ ändå att det är önskvärt att det skulle finnas åtminstone två ämneslärare
+ per examen i yrkesskolor.
+ Då skulle antalet lärartjänster i yrkesskolor bli minst 140.
+\end_layout
+
+\begin_layout Standard
+Om man lägger till de tal som har tidigare beskrivits blir det 266 lärartjänster.
+ Utöver dessa tjänster behöver skolor också rektorer.
+ Med åtminstone 42 olika läroinrättningar behövs det också 42 rektortjänster.
+ Således ska det blit 308 olika tjänster och en kostnad som belastar statens
+ utgifter med över 2 miljoner euro.
+\end_layout
+
+\begin_layout Standard
+Utbildningskansliet föreslår att med sådana höga kostnader skulle det vara
+ lämpligt att inrätta alla de tjänster som tidigare har presenterats, men
+ att staten betalar för hälften av tjänsterna och att landskapen ansvarar
+ för att etablera och finansiera den andra hälften av tjänsterna.
 \end_layout
 
 \begin_layout Section
