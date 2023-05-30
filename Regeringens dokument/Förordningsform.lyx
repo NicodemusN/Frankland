@@ -14,6 +14,8 @@
 \usepackage{tocloft}
 \usepackage{titletoc}
 \usepackage{calc}
+\usepackage{titlesec}
+\usepackage{etoolbox}
 
 \makeatletter
 \let\oldsubsection\subsection
@@ -41,6 +43,11 @@
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\thesection}{\Roman{section}}
 \renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+
+\makeatletter
+\patchcmd{\@maketitle}{\begin{center}}{\begin{center}\centering}{}{}
+\patchcmd{\@maketitle}{\end{center}}{\end{center}\par}{}{}
+\makeatother
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -99,7 +106,7 @@ figs-within-sections
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
-\suppress_date false
+\suppress_date true
 \justification true
 \use_refstyle 1
 \use_minted 0
@@ -136,12 +143,21 @@ figs-within-sections
 
 \begin_layout Title
 \noindent
-
-\size giant
-x-kanslis förordning
+X-KANSLIETS FÖRORDNING
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
+\begin_inset VSpace -1.5cm
+\end_inset
+
+om lorum ipsum.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
 Utgiven i Nyholm den D M Y.
 \end_layout
 
@@ -150,16 +166,9 @@ Utgiven i Nyholm den D M Y.
 	filename /home/niilo/Documents/rikskansliet-logo-zip-file/png/logo-no-background.png
 	lyxscale 10
 	scale 10
-	BoundingBox -360bp 0bp 1000bp 1150bp
+	BoundingBox -1220bp 0bp 1000bp 1150bp
 	rotateOrigin center
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
 \end_inset
 
 
@@ -182,20 +191,29 @@ thepage
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
+\begin_inset VSpace 0.8cm
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section
-Exempel kapitel
+\begin_layout Standard
+\noindent
+\align center
+Enligt x-lagen föreskrivs följande:
 \end_layout
 
-\begin_layout Subsection*
-1 § - Exempelparagraf
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+1 §
+\end_layout
+
+\begin_layout Standard
+\align center
+lorum ipsum
 \end_layout
 
 \end_body

@@ -15,6 +15,7 @@
 \usepackage{titletoc}
 \usepackage{calc}
 \usepackage{titlesec}
+\usepackage{etoolbox}
 
 \makeatletter
 \let\oldsubsection\subsection
@@ -42,6 +43,11 @@
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\thesection}{\Roman{section}}
 \renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+
+\makeatletter
+\patchcmd{\@maketitle}{\begin{center}}{\begin{center}\centering}{}{}
+\patchcmd{\@maketitle}{\end{center}}{\end{center}\par}{}{}
+\makeatother
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -208,6 +214,14 @@ Enligt x-lagen föreskrivs följande:
 \begin_layout Standard
 \align center
 lorum ipsum
+\end_layout
+
+\begin_layout Standard
+fjfjfjfj
+\end_layout
+
+\begin_layout Standard
+djdjdjd
 \end_layout
 
 \end_body
