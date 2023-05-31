@@ -17,17 +17,6 @@
 \usepackage{titlesec}
 \usepackage{etoolbox}
 
-\makeatletter
-\let\oldsubsection\subsection
-\renewcommand{\subsection}{\@ifstar{\starredsubsection}{\unstarredsubsection}}
-\newcommand{\starredsubsection}[1]{%
-    \oldsubsection*{#1}%
-    \addcontentsline{toc}{subsection}{#1}}
-\newcommand{\unstarredsubsection}[1]{%
-    \oldsubsection{#1}%
-    \addcontentsline{toc}{subsection}{#1}}
-\makeatother
-
 
 \renewcommand{\contentsname}{\centering INNEHÅLLSFÖRTECKNING}
 
@@ -36,13 +25,8 @@
 % Remove vertical space between sections in ToC
 \setlength{\cftbeforesecskip}{0pt}
 
-\titlecontents{section}[0em]{\bfseries}{\contentslabel{2.3em}}{\hspace*{-2.3em}}{\titlerule*[0.8pc]{.}\contentspage}
-\titlecontents{subsection}[6.1em]{}{\contentslabel{6.1em}}{\hspace*{-6.1em}}{\titlerule*[0.8pc]{.}\contentspage}
-
 % Add dots at the end of section titles in ToC
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
-\renewcommand{\thesection}{\Roman{section}}
-\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
 
 \makeatletter
 \patchcmd{\@maketitle}{\begin{center}}{\begin{center}\centering}{}{}
@@ -143,7 +127,7 @@ figs-within-sections
 
 \begin_layout Title
 \noindent
-X-KANSLIETS FÖRORDNING
+REGERINGENS PROPOSITION TILL RIKSDAGEN
 \end_layout
 
 \begin_layout Standard
@@ -193,22 +177,71 @@ thepage
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-Enligt x-lagen föreskrivs följande:
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
+\begin_inset Newpage newpage
+\end_inset
 
-\series bold
-1 §
+
 \end_layout
 
-\begin_layout Standard
-\align center
-lorum ipsum
+\begin_layout Section
+Målet av propositionen
+\end_layout
+
+\begin_layout Subsection
+Exempel paragraf
+\end_layout
+
+\begin_layout Section
+Motivering
+\end_layout
+
+\begin_layout Subsection
+Bakgrund
+\end_layout
+
+\begin_layout Subsection
+Beredning
+\end_layout
+
+\begin_layout Section
+Nuläge
+\end_layout
+
+\begin_layout Section
+Förslagen och deras konsekvenser
+\end_layout
+
+\begin_layout Subsection
+De viktigaste förslagen
+\end_layout
+
+\begin_layout Subsection
+De huvudsakliga konsekvenserna
+\end_layout
+
+\begin_layout Section
+Ikraftträdande
+\end_layout
+
+\begin_layout Subsection
+Riksdagens behandling
+\end_layout
+
+\begin_layout Subsection
+Riksdagens godkännande
+\end_layout
+
+\begin_layout Subsection
+Verkställighet och uppföljning
 \end_layout
 
 \end_body

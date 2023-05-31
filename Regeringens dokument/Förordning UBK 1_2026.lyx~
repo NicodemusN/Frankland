@@ -143,7 +143,7 @@ figs-within-sections
 
 \begin_layout Title
 \noindent
-X-KANSLIETS FÖRORDNING
+UTBILDNINGSKANSLIETS FÖRORDNING
 \end_layout
 
 \begin_layout Standard
@@ -152,13 +152,13 @@ X-KANSLIETS FÖRORDNING
 \begin_inset VSpace -1.5cm
 \end_inset
 
-om lorum ipsum.
+om verkställigheten av utbildningslagen.
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align center
-Utgiven i Nyholm den D M Y.
+Utgiven i Nyholm den 12 juni 2026.
 \end_layout
 
 \begin_layout Standard
@@ -195,7 +195,7 @@ thepage
 \begin_layout Standard
 \noindent
 \align center
-Enligt x-lagen föreskrivs följande:
+Enligt utbildningslagen föreskrivs följande:
 \end_layout
 
 \begin_layout Standard
@@ -208,7 +208,40 @@ Enligt x-lagen föreskrivs följande:
 
 \begin_layout Standard
 \align center
-lorum ipsum
+Utbildningslagen och den här förordningen bör verkställas inom juni och
+ juli.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+2 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Samskolor ska anläggas i varje landskap.
+ 15 tjänster ska inrättas i varje skola som staten bör finansieras: 6 klasslärar
+e, 8 ämneslärare och en rektor.
+ Landskapen ska kunna inrätta fler tjänster men staten ska inte finansiera
+ dem.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+3 §
+\end_layout
+
+\begin_layout Standard
+\align center
+Yrkesskolor ska anläggas i varje landskap.
+ 11 tjänster ska inrättas i varje skola som staten bör finansieras: 10 ämneslära
+re och en rektor.
+ Landskapen ska kunna inrätta fler tjänster men staten ska inte finansiera
+ dem.
 \end_layout
 
 \end_body

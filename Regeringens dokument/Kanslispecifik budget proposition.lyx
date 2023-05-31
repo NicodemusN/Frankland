@@ -17,17 +17,6 @@
 \usepackage{titlesec}
 \usepackage{etoolbox}
 
-\makeatletter
-\let\oldsubsection\subsection
-\renewcommand{\subsection}{\@ifstar{\starredsubsection}{\unstarredsubsection}}
-\newcommand{\starredsubsection}[1]{%
-    \oldsubsection*{#1}%
-    \addcontentsline{toc}{subsection}{#1}}
-\newcommand{\unstarredsubsection}[1]{%
-    \oldsubsection{#1}%
-    \addcontentsline{toc}{subsection}{#1}}
-\makeatother
-
 
 \renewcommand{\contentsname}{\centering INNEHÅLLSFÖRTECKNING}
 
@@ -36,13 +25,8 @@
 % Remove vertical space between sections in ToC
 \setlength{\cftbeforesecskip}{0pt}
 
-\titlecontents{section}[0em]{\bfseries}{\contentslabel{2.3em}}{\hspace*{-2.3em}}{\titlerule*[0.8pc]{.}\contentspage}
-\titlecontents{subsection}[6.1em]{}{\contentslabel{6.1em}}{\hspace*{-6.1em}}{\titlerule*[0.8pc]{.}\contentspage}
-
 % Add dots at the end of section titles in ToC
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
-\renewcommand{\thesection}{\Roman{section}}
-\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
 
 \makeatletter
 \patchcmd{\@maketitle}{\begin{center}}{\begin{center}\centering}{}{}
@@ -143,7 +127,7 @@ figs-within-sections
 
 \begin_layout Title
 \noindent
-X-KANSLIETS FÖRORDNING
+X-KANSLIETS BUDGET PROPOSITION
 \end_layout
 
 \begin_layout Standard
@@ -152,13 +136,20 @@ X-KANSLIETS FÖRORDNING
 \begin_inset VSpace -1.5cm
 \end_inset
 
-om lorum ipsum.
+
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align center
 Utgiven i Nyholm den D M Y.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 2cm
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -171,6 +162,28 @@ Utgiven i Nyholm den D M Y.
 	BoundingBox 0bp 0bp 1000bp 1000bp
 	rotateOrigin center
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+x-kansler
+\end_layout
+
+\begin_layout Standard
+x-sekreterare
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 2cm
 \end_inset
 
 
@@ -193,22 +206,31 @@ thepage
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-Enligt x-lagen föreskrivs följande:
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
+\begin_inset Newpage newpage
+\end_inset
 
-\series bold
-1 §
+
 \end_layout
 
-\begin_layout Standard
-\align center
-lorum ipsum
+\begin_layout Section
+Förändrigar i kansliets finanserna
+\end_layout
+
+\begin_layout Section
+Avgifternas jämförelse
+\end_layout
+
+\begin_layout Section
+Slutliga propositionen
 \end_layout
 
 \end_body

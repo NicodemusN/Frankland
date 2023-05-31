@@ -141,7 +141,7 @@ Utbildningslag
 \end_layout
 
 \begin_layout Date
-d m yyyy
+3 juni 2026
 \end_layout
 
 \begin_layout Address
@@ -218,6 +218,13 @@ thepage
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -376,13 +383,6 @@ utbildningskansliet
 rukturer.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Undervisningens innehåll
 \end_layout
@@ -520,12 +520,35 @@ Läraren har rätt till sina egna värderingar, men i lärararbetet är läraren
  lagstiftning och läroplaner.
 \end_layout
 
+\begin_layout Subsection*
+12 § - Terminer
+\end_layout
+
+\begin_layout Standard
+I grundskolan ska en termin heta 
+\emph on
+läsår
+\emph default
+.
+ Läsåret börjar på den andra måndagen i augusti.
+ Det ska vara två semestrar under året: sommarsemestern och vintersemestern.
+ Sommarsemestern ska börja när läsåret sluter och sluta när läsåret börjar.
+ Vintersemestern ska börja två dagar före juldagen och sluta den dagen efter
+ trettondagen.
+\end_layout
+
+\begin_layout Standard
+I andra läroinrättningar ska året delas i fem perioder.
+ Semestrar ska vara samma än i grundskolan.
+ Perioder ska delas mellan semestrar.
+\end_layout
+
 \begin_layout Section
 Verksamhetsförutsättningar
 \end_layout
 
 \begin_layout Subsection*
-12 § - Skolornas fastighetsbestånd
+13 § - Skolornas fastighetsbestånd
 \end_layout
 
 \begin_layout Standard
@@ -535,7 +558,7 @@ Landskapen ska ansvara för de skolornas fastighetsbestånd som de är ansvariga
 \end_layout
 
 \begin_layout Subsection*
-13 § - Läromedel
+14 § - Läromedel
 \end_layout
 
 \begin_layout Standard
@@ -545,7 +568,7 @@ Landskapen ska erbjuda läromedel för grundskolan.
 \end_layout
 
 \begin_layout Subsection*
-14 § - Läroplan
+15 § - Läroplan
 \end_layout
 
 \begin_layout Standard
@@ -556,7 +579,7 @@ Statskansliet ska kunna bestämma enläroplan för grundskolans undervisning
 \end_layout
 
 \begin_layout Subsection*
-15 § - Undervisningsplan
+16 § - Undervisningsplan
 \end_layout
 
 \begin_layout Standard
@@ -566,27 +589,34 @@ Högskolor ska kunna bestämma om undervisningsplaner som föreskriver innehåll
  Rektorerna är ansvariga för undervisningsplaner.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Ikraftträdande
 \end_layout
 
 \begin_layout Subsection*
-13 § - Utbildningsutskotts betänkandet
+17 § - Utbildningsutskotts betänkandet
 \end_layout
 
 \begin_layout Standard
 Utbildningsutskottet började föreskriva denna lagen den 1 april 2026.
- Betänkandet lämnades in till stora utskottet den 1 maj 2026.
- Utskottet lämnade författade lagen in till riksdagen den 1 juni 2026.
+ Betänkandet lämnades in till stora utskottet den 2 maj 2026.
+ Utskottet lämnade författade lagen in till riksdagen den 3 juni 2026.
 \end_layout
 
 \begin_layout Subsection*
-14 § - Ikraftträdande
+18 § - Ikraftträdande
 \end_layout
 
 \begin_layout Standard
-Riksdagen har stiftat denna lagen den 2 juni 2026 med n röster för och n
- röster mot.
+Riksdagen har stiftat denna lagen den 3 juni 2026 med 32 röster för och
+ 23 röster mot.
  Lagen träds i kraft 1.7.2026.
 \end_layout
 
