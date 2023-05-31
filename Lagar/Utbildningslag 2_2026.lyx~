@@ -1,0 +1,373 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{Franklands riksdag}
+\usepackage{tocloft}
+\usepackage{titletoc}
+\usepackage{calc}
+
+\makeatletter
+\let\oldsubsection\subsection
+\renewcommand{\subsection}{\@ifstar{\starredsubsection}{\unstarredsubsection}}
+\newcommand{\starredsubsection}[1]{%
+    \oldsubsection*{#1}%
+    \addcontentsline{toc}{subsection}{#1}}
+\newcommand{\unstarredsubsection}[1]{%
+    \oldsubsection{#1}%
+    \addcontentsline{toc}{subsection}{#1}}
+\makeatother
+
+
+\renewcommand{\contentsname}{\centering INNEHÅLLSFÖRTECKNING}
+
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+% Remove vertical space between sections in ToC
+\setlength{\cftbeforesecskip}{0pt}
+
+\titlecontents{section}[0em]{\bfseries}{\contentslabel{2.3em}}{\hspace*{-2.3em}}{\titlerule*[0.8pc]{.}\contentspage}
+\titlecontents{subsection}[6.1em]{}{\contentslabel{6.1em}}{\hspace*{-6.1em}}{\titlerule*[0.8pc]{.}\contentspage}
+
+% Add dots at the end of section titles in ToC
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+\end_preamble
+\use_default_options true
+\begin_modules
+customHeadersFooters
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language swedish
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 2
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 254mm
+\topmargin 2cm
+\rightmargin 317mm
+\bottommargin 2cm
+\headheight 2cm
+\headsep 2cm
+\footskip 2cm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swedish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\size giant
+Utbildningslag
+\end_layout
+
+\begin_layout Date
+d m yyyy
+\end_layout
+
+\begin_layout Address
+\noindent
+\align center
+Nyholm
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename /home/niilo/Documents/GitHub/Frankland/Andra material/Logor/riksdagen-logo-zip-file/png/logo-no-background.png
+	lyxscale 10
+	scale 20
+	BoundingBox 0bp 0bp 1000bp 623bp
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+President Anthony Hill
+\end_layout
+
+\begin_layout Standard
+Talman Silvia Mogdad
+\end_layout
+
+\begin_layout Standard
+Samling 2/2026
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Right Header
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thepage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Grundlagliga föreskrifter
+\end_layout
+
+\begin_layout Subsection*
+1 § - Rätten till utbildning
+\end_layout
+
+\begin_layout Standard
+Enligt 15 § av 
+\emph on
+grundlagen
+\emph default
+ ska var och en ha rätten till kostnadsfri utbildning.
+ Statens finansiering ska garantera förvaltning och tillgängligheten av
+ utbildningen.
+\end_layout
+
+\begin_layout Subsection*
+2 § - Läroplikten
+\end_layout
+
+\begin_layout Standard
+Enligt 15 § av grundlagen ska den elementära utbildningen vara obligatorisk
+ för var och en.
+ 
+\emph on
+Grundskola
+\emph default
+ ska motsvara den elementära och grundläggande utbildningen i Frankland.
+\end_layout
+
+\begin_layout Section
+Läroinrättningar och offentliga tjänster
+\end_layout
+
+\begin_layout Subsection*
+3 § - Grundskola
+\end_layout
+
+\begin_layout Standard
+Grundskolan ska omfatta 
+\emph on
+lågstadium
+\emph default
+, för första till sjätte klasser, och 
+\emph on
+högstadium
+\emph default
+ för sjunde till nionde klasser.
+ I lågstadiet ska varje klass ha sin egen lärare som lärar alla ämnen.
+ I högstadiet ska varje ämne ha sitt egen lärare som lärar alla elever.
+ Varje lågstadium och högstadium ska ha åtminstone en klass per åldersgrupp.
+\end_layout
+
+\begin_layout Standard
+Lågstadiet och högstadiet kan förenas som en 
+\emph on
+samskola
+\emph default
+ vilken ska ha en rektor som sin chef.
+ Annars ska lågstadier och högstadier ha sina egna rektorer.
+\end_layout
+
+\begin_layout Standard
+Skolan börjar för alla läropliktiga elever i lågstadiet det år de fyller
+ sju år.
+\end_layout
+
+\begin_layout Subsection*
+4 § - Andra stadiet
+\end_layout
+
+\begin_layout Standard
+Andra stadiet ska omfatta gymnasier och yrkesskolor.
+ Varje landskap ska ha en yrkesskola och varje landskap med över en tusen
+ invånare ska ha en gymnasium, men landskapen med färre än tusen invånare
+ ska kunna ha gymnasier frivilligt.
+ Både i yrkesskolan och gymnasiet ska varje ämne ha sitt egen lärare.
+\end_layout
+
+\begin_layout Standard
+Varje gymnasium och yrkesskola ska ha sin egen rektor.
+\end_layout
+
+\begin_layout Subsection*
+5 § - Högskolor
+\end_layout
+
+\begin_layout Standard
+Högskolor ska omfatta både yrkeshögskolor och universitet.
+ Deras lärartjänster ska vara beroende av högskolors egen vilja och förvaltnings
+struktur.
+ Studerande ska bli antagen till yrkeshögskolor enligt sina betyg av andra
+ stadiet som ska vara obligatorisk för att studera i en högskola.
+\end_layout
+
+\begin_layout Standard
+Varje yrkeshögskola och universitet ska ha sin egen rektor.
+\end_layout
+
+\begin_layout Subsection*
+6 § - Lärartjänster
+\end_layout
+
+\begin_layout Standard
+Lärartjänster ska delas i klasslärare och ämneslärare.
+ Deras löner ska bero på det 
+\emph on
+offentliga kollektivavtalet
+\emph default
+.
+ Klasslärares tjänster ska tillämpas i högstadier och ämneslärares tjänster
+ ska tillämpas i andra läroinrättningar.
+\end_layout
+
+\begin_layout Standard
+Under arbetstiden ska alla lärare som lärar mindreåriga vara ansvariga för
+ sina elever och studerande.
+ Ansvarigheten sluter om eleven eller studerande lämnar läroinrättningsområdet.
+\end_layout
+
+\begin_layout Subsection*
+7 § - Rektortjänster
+\end_layout
+
+\begin_layout Standard
+Varje läroinrättning ska ha en rektor, som är en chef för lärare.
+ Rektoren ska vara ansvarig för sina lärare och läroinrättningens undervisning.
+ Rektoren bör ha varit en lärare innan han eller hon börjar i tjänsten.
+\end_layout
+
+\begin_layout Subsection*
+8 § - Skolmyndigheten
+\end_layout
+
+\begin_layout Standard
+Undervisning och utbildning i Frankland ska uppföljas av 
+\emph on
+skolmyndigheten
+\emph default
+ som är en myndighet under 
+\emph on
+utbildningskansliet
+\emph default
+.
+ Alla lagstadga tjänster ska höra till skolmyndighetens förvaltningsstruktur.
+ Avlöningen och hanteringen av lagstadga lärartjänster ska ändå höra till
+ landskapen.
+ Alla extraordinarie lärartjänster ska höra till landskapens egna förvaltningsst
+rukturer.
+\end_layout
+
+\end_body
+\end_document
