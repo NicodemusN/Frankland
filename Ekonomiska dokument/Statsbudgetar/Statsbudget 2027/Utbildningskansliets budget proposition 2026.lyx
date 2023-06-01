@@ -127,7 +127,7 @@ figs-within-sections
 
 \begin_layout Title
 \noindent
-MILJÖKANSLIETS BUDGET PROPOSITION
+UTBILDNINGSKANSLIETS BUDGET PROPOSITION
 \end_layout
 
 \begin_layout Standard
@@ -142,7 +142,7 @@ MILJÖKANSLIETS BUDGET PROPOSITION
 \begin_layout Standard
 \noindent
 \align center
-Utgiven i Nyholm den 3 juli 2026.
+Utgiven i Nyholm den 10 juli 2026.
 \end_layout
 
 \begin_layout Standard
@@ -175,11 +175,11 @@ Utgiven i Nyholm den 3 juli 2026.
 \end_layout
 
 \begin_layout Standard
-Miljökansler Theresa Maj
+Utbildningskansler Miriam Shewett
 \end_layout
 
 \begin_layout Standard
-Kanslisekreterare Emmy Strandberg
+Kanslisekreterare Hjalmar Syrén
 \end_layout
 
 \begin_layout Standard
@@ -226,17 +226,12 @@ Förändrigar i kansliets finanserna
 \end_layout
 
 \begin_layout Standard
-De ända förändrigar till rikskansliets utgifter i förvaltningen är indexförhöjni
-ngar i tjänsters löner.
- Förändringen kommer att vara 2,00 % per lön enligt det offentliga kollektivavta
-let.
-\end_layout
-
-\begin_layout Standard
-Miljökansliet söker särskild finansiering för att förnya och bygga igen
- motorvägen mellan Nyholm och Kusto.
- Kusto är en växande stad som kräver bättre kommunikationsbanan.
- Motorvägen bedöms kosta 1,20 million euro.
+De ända förändrigar till inrikesskansliets utgifter i förvaltningen är indexförh
+öjningar i tjänsters löner och antalet tjänster.
+ Efter ikraftträndandet av utbildningslagen har också en stor del statens
+ utgifter överförts till landskapen.
+ Det betyder sammanlagt ─20,00 % mindre krav for avgifter för utbildningskanslie
+t.
 \end_layout
 
 \begin_layout Section
@@ -245,7 +240,7 @@ Avgifternas jämförelse
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="4">
+<lyxtabular version="3" rows="7" columns="4">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="right" valignment="top">
@@ -294,7 +289,7 @@ Avgiftspost
 \begin_inset Text
 
 \begin_layout Plain Layout
-Byggningsmyndigheten
+Skolmyndigheten
 \end_layout
 
 \end_inset
@@ -303,7 +298,7 @@ Byggningsmyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-270
+3 819
 \end_layout
 
 \end_inset
@@ -312,7 +307,7 @@ Byggningsmyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-335
+3 398
 \end_layout
 
 \end_inset
@@ -321,7 +316,7 @@ Byggningsmyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-24,07
+─11,04
 \end_layout
 
 \end_inset
@@ -332,7 +327,7 @@ Byggningsmyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Miljömyndigheten
+Undersökningsmyndigheten
 \end_layout
 
 \end_inset
@@ -341,7 +336,7 @@ Miljömyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-207
+508
 \end_layout
 
 \end_inset
@@ -350,7 +345,7 @@ Miljömyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-258
+566
 \end_layout
 
 \end_inset
@@ -359,7 +354,7 @@ Miljömyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-24,64
+11,42
 \end_layout
 
 \end_inset
@@ -370,7 +365,7 @@ Miljömyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Andra avgifter
+Skolors fastighetskostnader
 \end_layout
 
 \end_inset
@@ -379,7 +374,7 @@ Andra avgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
-514
+259
 \end_layout
 
 \end_inset
@@ -388,7 +383,7 @@ Andra avgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
-1 200
+-
 \end_layout
 
 \end_inset
@@ -397,7 +392,83 @@ Andra avgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
-133,46
+─100,00
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Skolmats kostnader
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+52
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+─100,00
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Högskolors finansiering
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1 100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+616
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+─44,00
 \end_layout
 
 \end_inset
@@ -417,7 +488,7 @@ Sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-991
+5 738
 \end_layout
 
 \end_inset
@@ -426,7 +497,7 @@ Sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-1 793
+4 579
 \end_layout
 
 \end_inset
@@ -435,7 +506,7 @@ Sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-80,93
+─20,20
 \end_layout
 
 \end_inset
@@ -453,7 +524,8 @@ Slutliga propositionen
 \end_layout
 
 \begin_layout Standard
-Miljökansliet föreslår att det skulle få åtminstone 1 793 000 € som avgifter.
+Utbildningskansliet föreslår att det skulle få åtminstone 4 579 000 € som
+ avgifter.
 \end_layout
 
 \end_body

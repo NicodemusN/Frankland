@@ -127,7 +127,7 @@ figs-within-sections
 
 \begin_layout Title
 \noindent
-MILJÖKANSLIETS BUDGET PROPOSITION
+KOMMUNIKATIONSKANSLIETS BUDGET PROPOSITION
 \end_layout
 
 \begin_layout Standard
@@ -175,7 +175,7 @@ Utgiven i Nyholm den 3 juli 2026.
 \end_layout
 
 \begin_layout Standard
-Miljökansler Theresa Maj
+Kommunikationskansler Mico Afors
 \end_layout
 
 \begin_layout Standard
@@ -226,17 +226,10 @@ Förändrigar i kansliets finanserna
 \end_layout
 
 \begin_layout Standard
-De ända förändrigar till rikskansliets utgifter i förvaltningen är indexförhöjni
-ngar i tjänsters löner.
+De ända förändrigar till kommunikationsskansliets utgifter i förvaltningen
+ är indexförhöjningar i tjänsters löner.
  Förändringen kommer att vara 2,00 % per lön enligt det offentliga kollektivavta
 let.
-\end_layout
-
-\begin_layout Standard
-Miljökansliet söker särskild finansiering för att förnya och bygga igen
- motorvägen mellan Nyholm och Kusto.
- Kusto är en växande stad som kräver bättre kommunikationsbanan.
- Motorvägen bedöms kosta 1,20 million euro.
 \end_layout
 
 \begin_layout Section
@@ -245,7 +238,7 @@ Avgifternas jämförelse
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="4">
+<lyxtabular version="3" rows="4" columns="4">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="right" valignment="top">
@@ -294,7 +287,7 @@ Avgiftspost
 \begin_inset Text
 
 \begin_layout Plain Layout
-Byggningsmyndigheten
+Kommunikationsmyndigheten
 \end_layout
 
 \end_inset
@@ -303,7 +296,7 @@ Byggningsmyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-270
+370
 \end_layout
 
 \end_inset
@@ -312,7 +305,7 @@ Byggningsmyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-335
+412
 \end_layout
 
 \end_inset
@@ -321,7 +314,7 @@ Byggningsmyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-24,07
+11,35
 \end_layout
 
 \end_inset
@@ -332,7 +325,7 @@ Byggningsmyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-Miljömyndigheten
+Underhåll av vägar
 \end_layout
 
 \end_inset
@@ -341,7 +334,7 @@ Miljömyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-207
+105
 \end_layout
 
 \end_inset
@@ -350,7 +343,7 @@ Miljömyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-258
+107
 \end_layout
 
 \end_inset
@@ -359,45 +352,7 @@ Miljömyndigheten
 \begin_inset Text
 
 \begin_layout Plain Layout
-24,64
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Andra avgifter
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-514
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1 200
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-133,46
+1,90
 \end_layout
 
 \end_inset
@@ -417,7 +372,7 @@ Sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-991
+475
 \end_layout
 
 \end_inset
@@ -426,7 +381,7 @@ Sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-1 793
+519
 \end_layout
 
 \end_inset
@@ -435,7 +390,7 @@ Sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-80,93
+9,26
 \end_layout
 
 \end_inset
@@ -453,7 +408,8 @@ Slutliga propositionen
 \end_layout
 
 \begin_layout Standard
-Miljökansliet föreslår att det skulle få åtminstone 1 793 000 € som avgifter.
+Kommunikationskansliet föreslår att det skulle få åtminstone 519 000 € som
+ avgifter.
 \end_layout
 
 \end_body
