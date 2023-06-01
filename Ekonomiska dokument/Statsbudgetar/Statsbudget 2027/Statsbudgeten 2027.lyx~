@@ -111,7 +111,7 @@ Statsbudgeten 2027
 \end_layout
 
 \begin_layout Date
-x august 2026
+25 august 2026
 \end_layout
 
 \begin_layout Address
@@ -219,14 +219,16 @@ Ekonomiska utsikter
 \end_layout
 
 \begin_layout Standard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
- tempor incididunt ut labore et dolore magna aliqua.
- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
- ut aliquip ex ea commodo consequat.
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
- eu fugiat nulla pariatur.
- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
- deserunt mollit anim id est laborum.
+Samhällsekonomin verkar frisk under gående och följande åren.
+ Bruttonationalprodukten (BNP) ökade med 9,65 % i 2026 vilken är ett fantastiskt
+ resultat.
+ Bruttonationalomsättningen (BNO) ökade inte på samma nivå men ökade i alla
+ fal med 3,37 %.
+ BNP förväntas att bli 290 millioner euro och BNO förväntas att bli 182
+ millioner euro till slutet av 2026.
+ Stora ökningen av BNP och BNO har påverkat statsfinanser.
+ Statens inkomstbas förbättrade med cirka 5 millioner euro.
+ Förbättringen kan räknas för tillväxten av BNO och minskande arbetslöshet.
 \end_layout
 
 \begin_layout Section
@@ -234,14 +236,28 @@ Målet av budgeten
 \end_layout
 
 \begin_layout Standard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
- tempor incididunt ut labore et dolore magna aliqua.
- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
- ut aliquip ex ea commodo consequat.
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
- eu fugiat nulla pariatur.
- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
- deserunt mollit anim id est laborum.
+Enligt 
+\shape italic
+grundlagen
+\shape default
+ ska statsekonomin behandlas av statskansliet och övervakas av riksdagen.
+ Statsekonomin bestäms i denna budget med riksdagens godkännande.
+ Enligt grundlagen måste budgeten också underskrivas av presidenten.
+\end_layout
+
+\begin_layout Standard
+Denna budget beslutar omkring statens finanser genom anslag och överlåtelser.
+ Statens finanser finansieras främst genom skatter och försäkringsavgifter.
+ Staten genererar också intäkter genom sina investeringar och skulder.
+ Skulder bör dock undvikas för att bevara hälsan i statsekonomin.
+\end_layout
+
+\begin_layout Standard
+Uppgifter för 2027 ska jämföras med uppgifter av 
+\emph on
+statsbudgeten 2026
+\emph default
+.
 \end_layout
 
 \begin_layout Section
@@ -253,13 +269,11 @@ Inkomstposter
 \end_layout
 
 \begin_layout Standard
-År 2026 uppskattas den statliga budgetekonomins inkomster utan nettoupplåning
- till 58,91 miljoner euro.
- Inkomsterna utan upplåning minskar med 1,17 miljoner euro.
- Orsakerna till förändringen är främst skatteavdrag.
- Förändringarna inkluderar nya lagstadgade ramar för omsättningsskatten,
- bolagsskatten, tobaks-accisen och alkoholsaccisen.
- Utan de här ramarna skulle statskansliet kunna justera skattsatserna.
+År 2027 uppskattas den statliga budgetekonomins inkomster utan nettoupplåning
+ till 63,97 miljoner euro.
+ Inkomsterna utan upplåning ökar med 5,06 millioner euro.
+ Orsakerna till förändringen är främst förbättringen av statens inkomstbasen.
+ Förändringarna beror på samhällsekonomin vilken är mycket oförutsedd.
 \end_layout
 
 \begin_layout Subsection
@@ -267,14 +281,13 @@ Balansen inom statsfinanserna och statsskulden
 \end_layout
 
 \begin_layout Standard
-Balansen inom statens budgetekonomi försvagas med cirka 1,17 miljoner euro
- jämfört med den ordinarie budgeten för 2025.
- Budgetpropositionen för 2026 uppvisar ett underskott på cirka 2,24 miljoner
+Balansen inom statens budgetekonomi förstärkas med cirka 0,74 miljoner euro
+ jämfört med den ordinarie budgeten för 2026.
+ Budgetpropositionen för 2026 uppvisar ett underskott på cirka 1,50 miljoner
  euro, vilket finansieras genom ökad skuld-sättning.
- Med ett underskott som här uppgår det till 0,84 % i förhållandet till bruttonat
+ Med ett underskott som här uppgår det till 2,93 % i förhållandet till bruttonat
 ionalprodukten.
- Skulden utgör 35,84 % av alla statliga skulder, vilken är en betydande
- men nödvändig förändrig.
+ Skulden utgör 22,20 % av alla statliga skulder.
 \end_layout
 
 \begin_layout Subsection
@@ -319,7 +332,16 @@ thepage
 \begin_inset Text
 
 \begin_layout Plain Layout
-2024 bokslut
+2026 bokslut
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2027 budgetprop.
 \end_layout
 
 \end_inset
@@ -328,16 +350,7 @@ thepage
 \begin_inset Text
 
 \begin_layout Plain Layout
-2026 budgetprop.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Ändring, % 2024──2026
+Ändring, % 2026──2027
 \end_layout
 
 \end_inset
@@ -357,16 +370,16 @@ Omsättningsskatt
 \begin_inset Text
 
 \begin_layout Plain Layout
-21 770
+19 065
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-19 065
+
 \end_layout
 
 \end_inset
@@ -395,16 +408,16 @@ Bolagsskatt
 \begin_inset Text
 
 \begin_layout Plain Layout
-5 024
+2 465
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-2 465
+
 \end_layout
 
 \end_inset
@@ -433,16 +446,16 @@ Inkomstskatt
 \begin_inset Text
 
 \begin_layout Plain Layout
-32 061
+30 684
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-30 684
+
 \end_layout
 
 \end_inset
@@ -471,16 +484,16 @@ Tobaksaccis
 \begin_inset Text
 
 \begin_layout Plain Layout
-667
+668
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-668
+
 \end_layout
 
 \end_inset
@@ -509,16 +522,16 @@ Alkoholsaccis
 \begin_inset Text
 
 \begin_layout Plain Layout
-1 539
+1540
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1540
+
 \end_layout
 
 \end_inset
@@ -547,16 +560,16 @@ Fordonsskatt
 \begin_inset Text
 
 \begin_layout Plain Layout
-541
+571
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-571
+
 \end_layout
 
 \end_inset
@@ -585,16 +598,16 @@ Statens investeringar
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+16
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-16
+
 \end_layout
 
 \end_inset
@@ -623,16 +636,16 @@ Sjukförsäkringsavgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+2 143
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-2 143
+
 \end_layout
 
 \end_inset
@@ -661,16 +674,16 @@ Pensionsförsäkringsavgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+1 759
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-1 759
+
 \end_layout
 
 \end_inset
@@ -699,16 +712,16 @@ Sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-61 602
+58 910
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-58 910
+
 \end_layout
 
 \end_inset
@@ -737,16 +750,16 @@ Nettoupplåning
 \begin_inset Text
 
 \begin_layout Plain Layout
-922
+2 242
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-2 242
+
 \end_layout
 
 \end_inset
@@ -775,7 +788,7 @@ Inkomstposter sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-62 524
+61 152
 \end_layout
 
 \end_inset
@@ -784,7 +797,7 @@ Inkomstposter sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-61 152
+
 \end_layout
 
 \end_inset
@@ -851,7 +864,7 @@ Konsumtionsutgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+27 885
 \end_layout
 
 \end_inset
@@ -860,7 +873,7 @@ Konsumtionsutgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
-27 885
+
 \end_layout
 
 \end_inset
@@ -889,7 +902,7 @@ Konsumtionsutgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+30 699
 \end_layout
 
 \end_inset
@@ -898,7 +911,7 @@ Konsumtionsutgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
-30 699
+
 \end_layout
 
 \end_inset
@@ -927,7 +940,7 @@ Investeringsutgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+16
 \end_layout
 
 \end_inset
@@ -936,7 +949,7 @@ Investeringsutgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
-16
+
 \end_layout
 
 \end_inset
@@ -965,7 +978,7 @@ Investeringsutgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
--
+2 552
 \end_layout
 
 \end_inset
@@ -974,7 +987,7 @@ Investeringsutgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
-2 552
+
 \end_layout
 
 \end_inset
@@ -1003,7 +1016,7 @@ Investeringsutgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
-62 524
+61 152
 \end_layout
 
 \end_inset
@@ -1012,7 +1025,7 @@ Investeringsutgifter
 \begin_inset Text
 
 \begin_layout Plain Layout
-61 152
+
 \end_layout
 
 \end_inset
@@ -1060,7 +1073,16 @@ Budgetekonomins inkomstposter, anslag och balans, tn euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-2024 bokslut
+2026 bokslut
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2027 budgetprop.
 \end_layout
 
 \end_inset
@@ -1069,16 +1091,7 @@ Budgetekonomins inkomstposter, anslag och balans, tn euro
 \begin_inset Text
 
 \begin_layout Plain Layout
-2026 budgetprop.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Ändring, % 2024──2026
+Ändring, % 2026──2027
 \end_layout
 
 \end_inset
@@ -1098,16 +1111,16 @@ Anslag sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-62 524
+61 152
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-61 152
+
 \end_layout
 
 \end_inset
@@ -1136,16 +1149,16 @@ Bokslutsunderskott
 \begin_inset Text
 
 \begin_layout Plain Layout
-922
+2 242
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-2 242
+
 \end_layout
 
 \end_inset
@@ -1172,25 +1185,14 @@ Ram för valperioden 2026─2028
 \end_layout
 
 \begin_layout Standard
-Beslut om ramen för valperioden 2026─2028 har fattats i regeringens plan
- för de offentliga finanserna den 30 augusti 2025.
- Regeringen håller fast vid sina planer att inte tillåta några undantag
- från ramen.
- Den enda anledning till att ett undantag kan accepteras är om det föreligger
- någon form av ekonomisk eller utrikespolitisk kris.
- Det finns inga potentiella risker för kriser som här.
-\end_layout
-
-\begin_layout Standard
-Med presidentens underskrift ska 
-\emph on
-treårsplanen 2026─2028
-\emph default
- införas på nästa år.
- Planen används gällande alla ekonomiska beslut och statsbudgetar.
- De årliga ramarna kan varieras beroende på ekonomiska förhållanden men
- den slutliga ramen för den totala tidsperioden ska vara 186 miljoner euro,
- vilket är 2 miljoner euro mer än i den tidigare planen.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+ eu fugiat nulla pariatur.
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+ deserunt mollit anim id est laborum.
 \end_layout
 
 \begin_layout Subsection
@@ -1427,8 +1429,7 @@ riksbanken
  Den samarbetar med presidentskansliet för att effektivt leda enligt under
  rikskanslerns och presidentens vilja.
  Riksbankens uppgifter omfattar behandlingen och reglering av finansmarknaden.
- År 2026 ska riksbankens folksbankir vara Aaron Råsenberg som efterträder
- den tidigare bankiren Will Skinners.
+ År 2027 ska Aaron Råsenberg fortsätta som riksbankiren.
 \end_layout
 
 \begin_layout Subsubsection
@@ -4046,14 +4047,12 @@ att Riksdagen måtte besluta godkänna den här statsbudgeten för 2026.
 \end_layout
 
 \begin_layout Standard
-Nyholm den 30 augusti 2025
+Nyholm den D augusti 2026
 \end_layout
 
 \begin_layout Standard
-Den här budgeten har beretts i finanskansliet under år 2025 med hänsyn till
+Den här budgeten har beretts i finanskansliet under år 2026 med hänsyn till
  andra kansliers propositioner.
- Budgeten kommer att påverka statens finanser och skatter under de kommande
- tre åren, förutsatt att riksdagsval ordnas regelbundet år 2028.
 \end_layout
 
 \begin_layout Standard

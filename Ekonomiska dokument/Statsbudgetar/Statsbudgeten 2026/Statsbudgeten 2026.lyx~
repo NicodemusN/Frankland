@@ -129,11 +129,13 @@ Finanskansler Majna Stewars
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Graphics
-	filename /home/niilo/Documents/rikskansliet-logo-zip-file/png/logo-no-background.png
+	filename /home/niilo/Documents/GitHub/Frankland/Andra material/Logor/statskansliet-logo-zip-file/png/logo-no-background.png
 	lyxscale 10
 	scale 12
-	BoundingBox -940bp 0bp 1000bp 2050bp
+	BoundingBox 0bp 0bp 1000bp 1000bp
 	rotateOrigin center
 
 \end_inset
@@ -2810,7 +2812,7 @@ Anslag sammanlagt
 \begin_inset Text
 
 \begin_layout Plain Layout
-5 738
+1 165
 \end_layout
 
 \end_inset
