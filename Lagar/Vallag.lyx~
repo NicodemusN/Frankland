@@ -141,7 +141,7 @@ Vallag
 \end_layout
 
 \begin_layout Date
-d m yyyy
+30 juni 2026
 \end_layout
 
 \begin_layout Address
@@ -158,19 +158,15 @@ Nyholm
 \end_layout
 
 \begin_layout Standard
-President x
+President Anthony Hill
 \end_layout
 
 \begin_layout Standard
-Rikskansler x
+Talman Silvia Mogdad
 \end_layout
 
 \begin_layout Standard
-Talman x
-\end_layout
-
-\begin_layout Standard
-Samling m/yyyy
+Samling 2/2026
 \end_layout
 
 \begin_layout Standard
@@ -228,11 +224,89 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Exempel kapitel
+Grundlagens föreskrifter
 \end_layout
 
 \begin_layout Subsection*
-1 § - Exempelparagraf
+1 § - Myndigheter och tjänster som väljas genom val
+\end_layout
+
+\begin_layout Standard
+Enligt grundlagens 18 § och 21 § ska presidenten och riksdagsledamöter väljas
+ genom val.
+ Valen ska hållas även för att välja landskapsfullmäktigens ledamöter.
+\end_layout
+
+\begin_layout Subsection*
+2 § - Flyttning av valen
+\end_layout
+
+\begin_layout Standard
+Valen ska överföras bara enligt grundlagen.
+\end_layout
+
+\begin_layout Section
+Valens principer
+\end_layout
+
+\begin_layout Subsection*
+3 § - Rösträtt
+\end_layout
+
+\begin_layout Standard
+Alla vuxna medborgare av Frankland ska vara röstberättigada utan undantag.
+ Alla röstberättigada ska ha lika rösträtt.
+ Valen ska hållas enligt hemlighetsprincipen vilken betyder att ingen ska
+ få veta hur en särskild person röstade.
+ Myndigheterna ska ändå få veta att har en röstberättigad person röstat
+ i allmänhet.
+\end_layout
+
+\begin_layout Subsection*
+4 § - Omröstningstillfälle
+\end_layout
+
+\begin_layout Standard
+Rösträtten ska inte få användas genom en ombudsman men en biträde ska kunna
+ komma med till omröstningstillfället.
+ Man ska styrka sin identitet innan hen röstar.
+\end_layout
+
+\begin_layout Standard
+Omröstningen ska hända framför en valobservatör men hen ska inte få veta
+ om röstens innehållet.
+ Detta syftar till att säkerställa valens allmänna tillförlitlighet, väljarens
+ rättighet och möjlighet att uttrycka sin fria vilja, samt att säkerställa
+ att valhemligheten upprätthålls.
+ Valet av valmyndigheterna och deras verksamhet regleras genom en särskild
+ förordning från statskansliet, som måste godkännas av riksdagen.
+ Brevröstning utgör ett undantag från denna regel, eftersom den genomförs
+ utan övervakning av valmyndigheten, men där ger två externa vittnen, förutom
+ väljaren själv, ett intyg om att väljaren har röstat med bevarad valhemlighet
+ och utan att deras valfrihet har kränkts.
+\end_layout
+
+\begin_layout Subsection*
+5 § - Omröstningstid
+\end_layout
+
+\begin_layout Standard
+Valmyndigheten ska meddela befolkninen om valen inte senare än två månader
+ före valen.
+ Förhandsröstningen och brevröstningen ska vara tillgängliga en månad före
+ valen.
+\end_layout
+
+\begin_layout Subsection*
+6 § - Partier
+\end_layout
+
+\begin_layout Standard
+Valbar till fullmäktige, tjänster, riksdagen och president är medlemmar
+ av partier.
+ Var och en ska ha rätten till att vara en medlem av ett parti och att grunda
+ ett parti.
+ Partier ska vara 
 \end_layout
 
 \end_body
