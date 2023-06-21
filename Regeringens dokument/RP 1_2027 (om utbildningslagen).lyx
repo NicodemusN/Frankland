@@ -1,0 +1,451 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{Franklands riksdag}
+\usepackage{tocloft}
+\usepackage{titletoc}
+\usepackage{calc}
+\usepackage{titlesec}
+\usepackage{etoolbox}
+
+
+\renewcommand{\contentsname}{\centering INNEHÅLLSFÖRTECKNING}
+
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+% Remove vertical space between sections in ToC
+\setlength{\cftbeforesecskip}{0pt}
+
+% Add dots at the end of section titles in ToC
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\makeatletter
+\patchcmd{\@maketitle}{\begin{center}}{\begin{center}\centering}{}{}
+\patchcmd{\@maketitle}{\end{center}}{\end{center}\par}{}{}
+\makeatother
+\end_preamble
+\use_default_options true
+\begin_modules
+customHeadersFooters
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language swedish
+\language_package babel
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 2
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 254mm
+\topmargin 2cm
+\rightmargin 317mm
+\bottommargin 2cm
+\headheight 2cm
+\headsep 2cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swedish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\noindent
+REGERINGENS PROPOSITION TILL RIKSDAGEN
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset VSpace -1.5cm
+\end_inset
+
+om ändringen av utbildningslagen.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+Utgiven i Nyholm den 11 september 2027.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/niilo/Documents/GitHub/Frankland/Andra material/Logor/statskansliet-logo-zip-file/png/logo-no-background.png
+	lyxscale 10
+	scale 10
+	BoundingBox -1220bp 0bp 1000bp 1150bp
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Right Header
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thepage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Rikskansler
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+CHRIS LINTER
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+Utbildningskansler 
+\emph on
+Angelina Mercel
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Målet av propositionen
+\end_layout
+
+\begin_layout Standard
+Målet av propositionen är enkelt att hämta religionen till undervisningen.
+\end_layout
+
+\begin_layout Section
+Motivering
+\end_layout
+
+\begin_layout Standard
+Religion är en viktig del av livet.
+ Den påverkar livet i olika förhållanden och situationer.
+ Religionen är också en viktig del av Franklands kultur.
+ Därför bör religionen undervisas i alla skolor.
+\end_layout
+
+\begin_layout Subsection
+Bakgrund
+\end_layout
+
+\begin_layout Standard
+Krisdemokratiska unionen har fört fram propositionen om lagförändringen.
+\end_layout
+
+\begin_layout Subsection
+Beredning
+\end_layout
+
+\begin_layout Standard
+Utbildningskansliet bereder ändringen av utbildningslagen genom denna propositio
+n.
+ Propositionen ska godkännas av statskansliet och presidentskansliet.
+ Beredning av propositionen händer på två olika men sammanlänkade nivåer
+ som tjänsteuppdrag och beredningsorgan.
+ Utbildningskansler ska tilldela tjänsteuppdraget uppgifter och tjänsteuppdraget
+ ska författa innehållet av propositionen.
+\end_layout
+
+\begin_layout Section
+Nuläge
+\end_layout
+
+\begin_layout Standard
+Nuvarande situationen är att religionen undervisas inte i skolor.
+\end_layout
+
+\begin_layout Section
+Förslagen och deras konsekvenser
+\end_layout
+
+\begin_layout Subsection
+De viktigaste förslagen
+\end_layout
+
+\begin_layout Subsubsection
+Undervisnings innehåll i grundskolor och gymnasier
+\end_layout
+
+\begin_layout Standard
+Det ska vara nie obligatoriska läroämnen i den grundläggande utbildningen
+ och gymnasierna.
+ Regeringen ska kunna öka antalet läroämnen genom en förordning av statskansliet.
+ De nie obligatoriska läroämnen ska vara:
+\end_layout
+
+\begin_layout Enumerate
+modersmål och litteratur
+\end_layout
+
+\begin_layout Enumerate
+matematik
+\end_layout
+
+\begin_layout Enumerate
+fysik och kemi
+\end_layout
+
+\begin_layout Enumerate
+hälsokunskap
+\end_layout
+
+\begin_layout Enumerate
+historia och samhällslära
+\end_layout
+
+\begin_layout Enumerate
+gymnastik
+\end_layout
+
+\begin_layout Enumerate
+biologi och geografi
+\end_layout
+
+\begin_layout Enumerate
+livsåskådningskunskap
+\end_layout
+
+\begin_layout Enumerate
+religion
+\end_layout
+
+\begin_layout Standard
+I lågstadier ska en lärare kunna lära alla de här ämnena på grundnivå.
+ I högstadier, yrkesskolor och gymnasier ska varje ämnet ha sitt egen specialise
+rade ämneslärare.
+\end_layout
+
+\begin_layout Subsubsection
+Undervisnings innehåll i yrkesskolor
+\end_layout
+
+\begin_layout Standard
+Det ska vara åtminstone elva examensdelar i yrkesskolor.
+ Landskapen kan erbjuda mera om de vill och regeringen ska kunna öka antalet
+ examina genom en förordning av statskansliet.
+ De elva examina som ska erbjudas i alla yrkesskolor ska vara:
+\end_layout
+
+\begin_layout Enumerate
+Fordonsbranschen
+\end_layout
+
+\begin_layout Enumerate
+Logistik
+\end_layout
+
+\begin_layout Enumerate
+Lantbruksbranschen
+\end_layout
+
+\begin_layout Enumerate
+Rengörins- och fastighetsbranschen
+\end_layout
+
+\begin_layout Enumerate
+Säkerhetsbranschen
+\end_layout
+
+\begin_layout Enumerate
+Instrumentvård
+\end_layout
+
+\begin_layout Enumerate
+Textil- och modebranschen
+\end_layout
+
+\begin_layout Enumerate
+Maskin- och produktionsteknik
+\end_layout
+
+\begin_layout Enumerate
+Social- och hälsovårdsbranschen
+\end_layout
+
+\begin_layout Enumerate
+Sjöfart
+\end_layout
+
+\begin_layout Enumerate
+Religionskunskap
+\end_layout
+
+\begin_layout Subsection
+De huvudsakliga konsekvenserna
+\end_layout
+
+\begin_layout Standard
+Huvudsakliga konservernsa av ändringen av utbildingslagen är att det blir
+ åtminstone 14 nya lärartjänster totalt i landskapens gymnasier och yrkesskolor.
+\end_layout
+
+\begin_layout Section
+Ikraftträdande
+\end_layout
+
+\begin_layout Subsection
+Riksdagens behandling
+\end_layout
+
+\begin_layout Standard
+Statskansliet har beslutat föreslå att utbildningsutskottet skulle behandla
+ denna propositionen i riksdagen om riksdagen beslutar godkänna behandlingen
+ av propositionen.
+\end_layout
+
+\begin_layout Standard
+Statskansliet föreslår att betänkandet som utskottet författar skulle vara
+ baserat på denna propositionen som redan innehåller passande texter för
+ att användas som paragrafer.
+\end_layout
+
+\begin_layout Standard
+Statskansliet tar inte ställning till stora utskottets eventuella synpunkter
+ och hoppas att utskottet godkänner betänkandet.
+\end_layout
+
+\begin_layout Subsection
+Riksdagens godkännande
+\end_layout
+
+\begin_layout Standard
+Statskansliet föreslår att riksdagen måtte besluta godkänna propositionen
+ som en förändring av lag efter de gällande utskottens betänkanden.
+ Statskansliet föreslår även att presidenten måtte besluta godkänna lagförändrin
+gen efter riksdagens godkännande.
+\end_layout
+
+\begin_layout Subsection
+Verkställighet och uppföljning
+\end_layout
+
+\begin_layout Standard
+Lagen ska kunna verkställas genom statskansliets förordningar.
+ Utbildningskansliet ska se till att lagen verkställas ordentligt och enligt
+ ordföringar och lagar.
+ Utbildningskansliet ska också utfärda sina egna ordföringar för detaljer
+ gällande utbildning och undervisning i landet.
+\end_layout
+
+\end_body
+\end_document
