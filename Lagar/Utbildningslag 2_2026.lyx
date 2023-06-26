@@ -161,7 +161,7 @@ Nyholm
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/niilo/Documents/GitHub/Frankland/Andra material/Logor/riksdagen-logo-zip-file/png/logo-no-background.png
+	filename /home/nicodemus/Documents/GitHub/Frankland/Andra material/Logor/riksdagen-logo-zip-file/png/logo-no-background.png
 	lyxscale 10
 	scale 20
 	BoundingBox 0bp 0bp 1000bp 623bp
@@ -392,8 +392,8 @@ Undervisningens innehåll
 \end_layout
 
 \begin_layout Standard
-Åtminstone åtta ämnen ska undervisas i grundskolor och gymnasier som obligatoris
-kt.
+Åtminstone nio ämnen ska undervisas i grundskolor och gymnasier som obligatorisk
+t.
  De är:
 \end_layout
 
@@ -427,6 +427,10 @@ biologi och geografi
 
 \begin_layout Itemize
 livsåskådningskunskap
+\end_layout
+
+\begin_layout Itemize
+religion
 \end_layout
 
 \begin_layout Standard
@@ -618,6 +622,15 @@ Utbildningsutskottet började föreskriva denna lagen den 1 april 2026.
 Riksdagen har stiftat denna lagen den 3 juni 2026 med 32 röster för och
  23 röster mot.
  Lagen träds i kraft 1.7.2026.
+\end_layout
+
+\begin_layout Subsection*
+19 § - Ändring 1/2027
+\end_layout
+
+\begin_layout Standard
+Riksdagen har föreskrivit att religionen ska tilläggas i listan av obligatoriska
+ ämnen i grundskolor och gymnasier, med 24 röster för och 15 röster mot.
 \end_layout
 
 \end_body
